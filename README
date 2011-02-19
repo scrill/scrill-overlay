@@ -1,0 +1,8 @@
+### My Gentoo overlay ###
+
+Configuration:
+
+1. Add 'https://github.com/Scrill/scrill-overlay/raw/master/scrill-overlay.xml' to layman.cfg in 'overlays' section.
+2. Enable overlay in layman:
+  # layman -f
+  # layman -a scrill

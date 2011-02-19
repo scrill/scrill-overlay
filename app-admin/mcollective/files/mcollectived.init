@@ -1,0 +1,22 @@
+#!/sbin/runscript
+# Copyright 1999-2006 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+depend() {
+    need net
+}
+
+start() {
+    ebegin "Starting Marionette Collective server"
+    start-stop-daemon --start --exec /usr/sbin/mcollectived --pidfile ${PIDFILE} \
+        -- --config=${CONFIG} --pidfile=${PIDFILE}
+    eend $?
+}
+
+stop() {
+    ebegin "Stopping Marionette Collective server"
+    start-stop-daemon --stop --pidfile ${PIDFILE}
+    eend $?
+}
+

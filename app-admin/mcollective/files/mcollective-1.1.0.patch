@@ -1,0 +1,82 @@
+--- etc/client.cfg.dist.orig	2011-02-08 16:22:09.953081956 -0500
++++ etc/client.cfg.dist	2011-02-08 16:30:50.832488363 -0500
+@@ -1,17 +1,36 @@
++# It's recommended that you do not set host, user, password, or psk
++# in this file and instead use environment variables, such as the
++# following:
++#
++#   export STOMP_USER=user
++#   export STOMP_PASSWORD=password
++#   export STOMP_SERVER=stomp.your.com
++#   export MCOLLECTIVE_PSK=123456789
++#
++# If you go this route, you may leave the variables below with "unset" as
++# the value.
++# Topic to subscribe to
+ topicprefix = /topic/mcollective
+-libdir = /usr/libexec/mcollective
+-logfile = /dev/null
++
++# Plugin location
++libdir = /usr/share/mcollective
++
++# Client logfile
++logfile = /var/log/mcollective.log
++
++# Client loglevel
+ loglevel = info
+ 
+ # Plugins
+ securityprovider = psk
+ plugin.psk = unset
+ 
++# Connector Information
+ connector = stomp
+-plugin.stomp.host = stomp.example.com
++plugin.stomp.host = unset
+ plugin.stomp.port = 6163
+-plugin.stomp.user = mcollective
+-plugin.stomp.password = marionette
++plugin.stomp.user = unset
++plugin.stomp.password = unset
+ 
+ # Facts
+ factsource = yaml
+--- etc/server.cfg.dist.orig	2011-02-08 16:36:01.202560022 -0500
++++ etc/server.cfg.dist	2011-02-08 16:38:08.432477934 -0500
+@@ -1,18 +1,29 @@
++#
++# THIS FILE SHOULD NOT BE WORLD READABLE
++#
+ topicprefix = /topic/mcollective
+-libdir = /usr/libexec/mcollective
+-logfile = /var/log/mcollective.log
++
++# Plugins location
++libdir = /usr/share/mcollective
++
++# Server logfile
++logfile = /var/log/mcollectived.log
++
++# Server loglevel
+ loglevel = info
++
++# Set this to 1 to background the process
+ daemonize = 1
+ 
+ # Plugins
+ securityprovider = psk
+-plugin.psk = unset
++plugin.psk = SET_A_PSK_HERE
+ 
+ connector = stomp
+-plugin.stomp.host = stomp.example.com
++plugin.stomp.host = SET_STOMP_SERVER
+ plugin.stomp.port = 6163
+-plugin.stomp.user = mcollective
+-plugin.stomp.password = marionette
++plugin.stomp.user = SET_STOMP_USERNAME
++plugin.stomp.password = SET_STOMP_PASSWORD
+ 
+ # Facts
+ factsource = yaml
