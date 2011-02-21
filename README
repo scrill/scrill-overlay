@@ -6,3 +6,39 @@ Configuration:
 2. Enable overlay in layman:
   # layman -f
   # layman -a scrill
+
+Content:
+
+# app-admin
+	Package: mcollective
+	Versions:  1.0.0 1.0.1
+	Description: Common elements of the Marionette Collective management suite.
+
+# app-laptop
+	Package: lenovo-sl-laptop
+	Versions:  9999
+	Description: Linux kernel support for the Lenovo SL series ThinkPads(forked by tadzik).
+
+# dev-ruby
+	Package: rack
+	Versions:  1.0.1
+	Description: A modular Ruby webserver interface
+
+	Package: stomp
+	Versions:  1.1.6
+	Description: A Stomp client written in Ruby.
+
+# net-misc
+	Package: rabbitmq-server
+	Versions:  2.2.0
+	Description: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang.
+
+	Package: rabbitmq-stomp-plugin
+	Versions:  2.2.0
+	Description: RabbitMQ STOMP plugin.
+
+# x11-themes
+	Package: qutim-kolobok
+	Versions:  0.0.2
+	Description: Kolobok smile pack for net-im/qutim.
+
