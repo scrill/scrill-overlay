@@ -14,5 +14,5 @@ HOMEPAGE="http://rubyforge.org/projects/rack"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ia64 ppc ppc64 sparc x86"
 IUSE=""
