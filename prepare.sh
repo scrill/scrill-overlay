@@ -22,8 +22,8 @@ for category in `ls -1 | grep -e "...-.*"`; do
 	    for ebuild in `ls -1 ./${category}/${package} | grep -e "ebuild$"`; do
 		echo -n "$ebuild" | sed -E s%${package}-\|\.ebuild%%g >> ./README
 		echo -n "  " >> ./README
-		ebuild ./${category}/${package}/${ebuild} manifest
 	    done
+	    ebuild ./${category}/${package}/${ebuild} manifest
 	    echo -ne "\n\tDescription:\t" >> ./README
 	    cat ./${category}/${package}/${ebuild} | grep 'DESCRIPTION' | awk -F '"' '{print $2}' >> ./README
 	    echo >> ./README

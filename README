@@ -10,6 +10,10 @@ Configuration:
 Content:
 
 # app-admin
+	Package:	aws-iam-tools
+	Versions:	1.2.0  
+	Description:	The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service.
+
 	Package:	mcollective
 	Versions:	1.0.0  1.0.1  
 	Description:	Common elements of the Marionette Collective management suite.
