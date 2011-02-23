@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE="-client +server"
 
-DEPEND=">=dev-ruby/stomp-1.1
+DEPEND=">=dev-ruby/stomp-1.1.6
         >=dev-lang/ruby-1.8"
 
 RDEPEND="${DEPEND}"
