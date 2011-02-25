@@ -9,7 +9,7 @@ RUBY_FAKEGEM_DOCDIR="doc"
 
 inherit ruby-fakegem
 
-DESCRIPTION="A modular Ruby webserver interface"
+DESCRIPTION="A modular Ruby webserver interface."
 HOMEPAGE="http://rubyforge.org/projects/rack"
 
 LICENSE="MIT"

@@ -21,15 +21,19 @@ Content:
 # app-laptop
 	Package:	lenovo-sl-laptop
 	Versions:	9999  
-	Description:	Linux kernel support for the Lenovo SL series ThinkPads(forked by tadzik).
+	Description:	Linux kernel support for the Lenovo SL series ThinkPads.
 
 # dev-ruby
+	Package:	facter
+	Versions:	1.5.8  
+	Description:	A cross-platform Ruby library for retrieving facts from operating systems.
+
 	Package:	rack
 	Versions:	1.0.1  
-	Description:	A modular Ruby webserver interface
+	Description:	A modular Ruby webserver interface.
 
 	Package:	stomp
-	Versions:	1.1.6  
+	Versions:	1.1.7  
 	Description:	A Stomp client written in Ruby.
 
 # net-misc
