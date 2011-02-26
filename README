@@ -46,6 +46,10 @@ Content:
 	Description:	RabbitMQ STOMP plugin.
 
 # x11-themes
+	Package:	milky
+	Versions:	2.0  
+	Description:	Icon theme for KDE 4 designed by Banu Önal.
+
 	Package:	qutim-kolobok
 	Versions:	0.0.2  
 	Description:	Kolobok smile pack for net-im/qutim.

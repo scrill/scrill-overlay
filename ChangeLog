@@ -1,5 +1,7 @@
-25-02-2010:
+26-02-2011:
+* Milky icon theme added.
 
-ChangeLog created :)
-Facter-1.5.8 with ec2-patch added;
-Stomp-1.1.6 replaced by Stomp-1.1.7.
+25-02-2011:
+* ChangeLog created :)
+* Facter-1.5.8 with ec2-patch added;
+* Stomp-1.1.6 replaced by Stomp-1.1.7.
