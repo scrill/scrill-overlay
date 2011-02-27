@@ -10,6 +10,14 @@ Configuration:
 Content:
 
 # app-admin
+	Package:	aws-cfn-tools
+	Versions:	1.0.6  
+	Description:	The command line tools serve as the client interface to the AWS CloudFormation web service.
+
+	Package:	aws-elb-tools
+	Versions:	1.0.11.1  
+	Description:	The API tools serve as the client interface to the Elastic Load Balancing web service.
+
 	Package:	aws-iam-tools
 	Versions:	1.2.0  
 	Description:	The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service.
