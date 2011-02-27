@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-DESCRIPTION="Icon theme for KDE 4 designed by Banu Önal (gray)."
+DESCRIPTION="Icon theme for KDE 4 designed by Banu Önal."
 HOMEPAGE="http://kde-look.org/content/show.php/Milky?content=133124"
 SRC_URI="http://cekirdek.pardus.org.tr/~gokcen/files/milky/${PN}-2.0-alpha2.tar.bz2"
 
@@ -16,18 +16,12 @@ RESTRICT="strip binchecks"
 DEPEND=""
 RDEPEND=${DEPEND}
 
-src_unpack() {
-    unpack ${A}
-    sed -i 's/Name=Milky/Name=Milky-Alpha2/' ${WORKDIR}/milky/index.theme || die
-}
-
 src_install() {
 	cd milky
 	dodoc author readme.txt thanks.to
 	rm author license.txt readme.txt thanks.to
 
 	cd ${WORKDIR}
-	dodir /usr/share/icons/milky-alpha2
-	insinto /usr/share/icons/milky-alpha2
-	doins -r milky/*
+	insinto /usr/share/icons
+	doins -r milky
 }

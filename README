@@ -48,7 +48,7 @@ Content:
 # x11-themes
 	Package:	milky
 	Versions:	2.0  2.0_alpha2  
-	Description:	Icon theme for KDE 4 designed by Banu Önal (gray).
+	Description:	Icon theme for KDE 4 designed by Banu Önal.
 
 	Package:	qutim-kolobok
 	Versions:	0.0.2  
