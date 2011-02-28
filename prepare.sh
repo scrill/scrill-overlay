@@ -2,27 +2,25 @@
 
 cat > ./README.md << "EOF"
 
-DESCRIPTION
-===========
+# Description
 
 My Gentoo overlay.
 
-CONFIGURATION
-=============
+# Configuration
 
-1. Add 'https://github.com/Scrill/scrill-overlay/raw/master/scrill-overlay.xml' to layman.cfg in 'overlays' section.
-2. Enable overlay in layman:
+* Add 'https://github.com/Scrill/scrill-overlay/raw/master/scrill-overlay.xml' to layman.cfg in 'overlays' section.
+* Enable overlay in layman:
+
 	layman -f
 	layman -a scrill
 
-CONTENT
-=======
+# Content
 
 EOF
 
 for category in `ls -1 | grep -e "...-.*"`; do
     if [ -d "./${category}" ]; then
-	echo "# ${category}" >> ./README.md
+	echo "* ${category}" >> ./README.md
 	for package in `ls -1 ./${category}`; do
 	    echo -ne "\tPackage:\t${package}\n\tVersions:\t" >> ./README.md
 	    for ebuild in `ls -1 ./${category}/${package} | grep -e "ebuild$"`; do
