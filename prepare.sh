@@ -22,7 +22,7 @@ for category in `ls -1 | grep -e "...-.*"`; do
     if [ -d "./${category}" ]; then
 	echo -e "* ${category}\n" >> ./README.md
 	for package in `ls -1 ./${category}`; do
-	    echo -ne "    Package:\t ${package}\n    Versions:\t " >> ./README.md
+	    echo -ne "    Package: ${package}\n    Versions: " >> ./README.md
 	    for ebuild in `ls -1 ./${category}/${package} | grep -e "ebuild$"`; do
 		echo -n "$ebuild" | sed -E s%${package}-\|\.ebuild%%g >> ./README.md
 		echo -n "  " >> ./README.md
