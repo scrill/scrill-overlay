@@ -1,21 +1,19 @@
 
-DESCRIPTION
-===========
+# Description
 
 My Gentoo overlay.
 
-CONFIGURATION
-=============
+# Configuration
 
-1. Add 'https://github.com/Scrill/scrill-overlay/raw/master/scrill-overlay.xml' to layman.cfg in 'overlays' section.
-2. Enable overlay in layman:
+* Add 'https://github.com/Scrill/scrill-overlay/raw/master/scrill-overlay.xml' to layman.cfg in 'overlays' section.
+* Enable overlay in layman:
+
 	layman -f
 	layman -a scrill
 
-CONTENT
-=======
+# Content
 
-# app-admin
+* app-admin
 	Package:	aws-cfn-tools
 	Versions:	1.0.6  
 	Description:	The command line tools serve as the client interface to the AWS CloudFormation web service.
@@ -32,12 +30,12 @@ CONTENT
 	Versions:	1.0.0  1.0.1  
 	Description:	Common elements of the Marionette Collective management suite.
 
-# app-laptop
+* app-laptop
 	Package:	lenovo-sl-laptop
 	Versions:	9999  
 	Description:	Linux kernel support for the Lenovo SL series ThinkPads.
 
-# dev-ruby
+* dev-ruby
 	Package:	facter
 	Versions:	1.5.8  
 	Description:	A cross-platform Ruby library for retrieving facts from operating systems.
@@ -50,7 +48,7 @@ CONTENT
 	Versions:	1.1.7  
 	Description:	A Stomp client written in Ruby.
 
-# net-misc
+* net-misc
 	Package:	rabbitmq-server
 	Versions:	2.2.0  
 	Description:	RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang.
@@ -59,7 +57,7 @@ CONTENT
 	Versions:	2.2.0  
 	Description:	RabbitMQ STOMP plugin.
 
-# x11-themes
+* x11-themes
 	Package:	milky
 	Versions:	2.0  2.0_alpha2  
 	Description:	Icon theme for KDE 4 designed by Banu Önal.
