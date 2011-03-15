@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
-cat > ./README << "EOF"
-### My Gentoo overlay ###
+readme='./README'
+
+cat > $readme << "EOF"
+### Scrill overlay
 
 Configuration:
 
-1. Add 'https://github.com/Scrill/scrill-overlay/raw/master/scrill-overlay.xml' to layman.cfg in 'overlays' section.
-2. Enable overlay in layman:
-  # layman -f
+Enable overlay in layman:
+
   # layman -a scrill
 
 Content:
@@ -15,20 +16,21 @@ Content:
 EOF
 
 for category in `ls -1 | grep -e "...-.*"`; do
-    if [ -d "./${category}" ]; then
-	echo "# ${category}" >> ./README
-	for package in `ls -1 ./${category}`; do
-	    echo -ne "\tPackage:\t${package}\n\tVersions:\t" >> ./README
-	    for ebuild in `ls -1 ./${category}/${package} | grep -e "ebuild$"`; do
-		echo -n "$ebuild" | sed -E s%${package}-\|\.ebuild%%g >> ./README
-		echo -n "  " >> ./README
-	    done
-	    ebuild ./${category}/${package}/${ebuild} manifest
-	    echo -ne "\n\tDescription:\t" >> ./README
-	    cat ./${category}/${package}/${ebuild} | grep 'DESCRIPTION' | awk -F '"' '{print $2}' >> ./README
-	    echo >> ./README
-	done
-    fi
+  if [ -d "./${category}" ]; then
+    echo -e "  ${category} {\n" >> $readme
+    for package in `ls -1 ./${category}`; do
+      echo -ne "    Package:     ${package}\n    Versions:    " >> $readme
+      for ebuild in `ls -1 ./${category}/${package} | grep -e "ebuild$"`; do
+        echo -n "$ebuild" | sed -E s%${package}-\|\.ebuild%%g >> $readme
+        echo -n "  " >> $readme
+      done
+      ebuild ./${category}/${package}/${ebuild} manifest
+      echo -ne "\n    Description: " >> $readme
+      cat ./${category}/${package}/${ebuild} | grep 'DESCRIPTION' | awk -F '"' '{print $2}' >> $readme
+      echo >> $readme
+    done
+    echo -e "  }\n" >> $readme
+  fi
 done
 
 exit 0
