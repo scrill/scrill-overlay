@@ -27,12 +27,12 @@ Content:
     Description: The Command Line Toolkit for the Amazon Relational Database Service.
 
     Package:     mcollective
-    Versions:    1.0.0  1.0.1  
+    Versions:    1.0.1  
     Description: Common elements of the Marionette Collective management suite.
 
     Package:     puppet
     Versions:    2.6.6  
-    Description: A system automation and configuration management software
+    Description: A system automation and configuration management software.
 
   }
 
@@ -91,6 +91,7 @@ Changelog:
   * Changelog and Readme fixes.
   * app-admin/puppet-2.6.6 added.
   * add to dev-ruby/facter-1.5.8 and dev-ruby/rack-1.0.1 revision 1 index.
+  * app-admin/mcollective-1.0.0 removed.
 
 10-03-2011:
   * AWS RDS cli-tools added.
