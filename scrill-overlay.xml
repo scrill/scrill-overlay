@@ -1,6 +1,0 @@
-<layman>
-  <overlay type="git" src="git://github.com/Scrill/scrill-overlay.git" contact="scrill@ya.ru" status="unofficial" name="scrill">
-    <link>https://github.com/Scrill/scrill-overlay</link>
-    <description>Scrill overlay</description>
- </overlay>
-</layman>
