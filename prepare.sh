@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 readme='./README'
+changelog='./CHANGELOG'
 
 cat > $readme << "EOF"
 ### Scrill overlay
@@ -32,5 +33,8 @@ for category in `ls -1 | grep -e "...-.*"`; do
     echo -e "  }\n" >> $readme
   fi
 done
+
+echo -e 'Changelog:\n' >> $readme
+cat $changelog >> $readme
 
 exit 0
