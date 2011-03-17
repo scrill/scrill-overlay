@@ -11,7 +11,7 @@ RUBY_FAKEGEM_EXTRADOC="CHANGELOG* README*"
 
 inherit elisp-common eutils ruby-fakegem
 
-DESCRIPTION="A system automation and configuration management software"
+DESCRIPTION="A system automation and configuration management software."
 HOMEPAGE="http://puppetlabs.com/"
 
 LICENSE="GPL-2"

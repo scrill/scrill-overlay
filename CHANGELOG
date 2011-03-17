@@ -3,6 +3,7 @@
   * Changelog and Readme fixes.
   * app-admin/puppet-2.6.6 added.
   * add to dev-ruby/facter-1.5.8 and dev-ruby/rack-1.0.1 revision 1 index.
+  * app-admin/mcollective-1.0.0 removed.
 
 10-03-2011:
   * AWS RDS cli-tools added.
