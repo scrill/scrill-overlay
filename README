@@ -31,7 +31,7 @@ Content:
     Description: The Command Line Toolkit for the Amazon Relational Database Service.
 
     Package:     puppet
-    Versions:    2.6.6  2.6.7  
+    Versions:    2.6.7  
     Description: A system automation and configuration management software.
 
   }
@@ -86,9 +86,9 @@ Content:
 
 Changelog:
 
-21-03-2011:
+31-03-2011:
   * app-admin/mcollective removed.
-  * app-admin/puppet-2.6.7 added.
+  * app-admin/puppet-2.6.7 added (2.6.6 - removed).
   * app-admin/amazon-ec2-init added (without getting hostname and moved to default runlevel).
 
 17-03-2011:
