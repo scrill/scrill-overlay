@@ -10,6 +10,10 @@ Content:
 
   app-admin {
 
+    Package:     amazon-ec2-init
+    Versions:    20110331  
+    Description: Init script to setup Amazon EC2 instance parameters.
+
     Package:     aws-cfn-tools
     Versions:    1.0.6  
     Description: The command line tools serve as the client interface to the AWS CloudFormation web service.
@@ -26,12 +30,8 @@ Content:
     Versions:    1.3.003  
     Description: The Command Line Toolkit for the Amazon Relational Database Service.
 
-    Package:     mcollective
-    Versions:    1.0.1  
-    Description: Common elements of the Marionette Collective management suite.
-
     Package:     puppet
-    Versions:    2.6.6  
+    Versions:    2.6.6  2.6.7  
     Description: A system automation and configuration management software.
 
   }
@@ -85,6 +85,11 @@ Content:
   }
 
 Changelog:
+
+21-03-2011:
+  * app-admin/mcollective removed.
+  * app-admin/puppet-2.6.7 added.
+  * app-admin/amazon-ec2-init added (without getting hostname and moved to default runlevel).
 
 17-03-2011:
   * dev-ruby/stomp-1.1.8 ebuild.

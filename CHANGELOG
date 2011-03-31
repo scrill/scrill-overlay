@@ -1,3 +1,8 @@
+21-03-2011:
+  * app-admin/mcollective removed.
+  * app-admin/puppet-2.6.7 added.
+  * app-admin/amazon-ec2-init added (without getting hostname and moved to default runlevel).
+
 17-03-2011:
   * dev-ruby/stomp-1.1.8 ebuild.
   * Changelog and Readme fixes.
