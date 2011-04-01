@@ -54,10 +54,6 @@ Content:
     Versions:    1.0.1-r1  
     Description: A modular Ruby webserver interface.
 
-    Package:     stomp
-    Versions:    1.1.8  
-    Description: A Stomp client written in Ruby.
-
   }
 
   net-misc {
@@ -85,6 +81,9 @@ Content:
   }
 
 Changelog:
+
+01-04-2011:
+  * dev-ruby/stomp removed.
 
 31-03-2011:
   * app-admin/mcollective removed.
