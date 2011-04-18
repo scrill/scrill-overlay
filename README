@@ -44,6 +44,14 @@ Content:
 
   }
 
+  app-misc {
+
+    Package:     qomodoro
+    Versions:    0.1  
+    Description: Cross-platform pomodoro timer written in C++ using Qt4.
+
+  }
+
   dev-ruby {
 
     Package:     facter
