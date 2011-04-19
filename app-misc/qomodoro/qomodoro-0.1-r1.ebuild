@@ -30,4 +30,7 @@ src_compile() {
 src_install() {
   dobin ${PN}
   dodoc LICENSE
+  mv "${S}"/img/logo.png "${S}"/img/${PN}.png 
+  doicon "${S}"/img/${PN}.png || die "Failed to install icon"
+  make_desktop_entry ${PN} ${PN} ${PN} "Application;Utility"
 }

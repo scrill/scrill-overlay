@@ -47,7 +47,7 @@ Content:
   app-misc {
 
     Package:     qomodoro
-    Versions:    0.1  
+    Versions:    0.1-r1  
     Description: Cross-platform pomodoro timer written in C++ using Qt4.
 
   }
@@ -92,6 +92,7 @@ Changelog:
 
 19-04-2011:
   * app-misc/qomodoro-0.1 added.
+  * app-misc/qomodoro fixed icon and menu entry.
 
 01-04-2011:
   * dev-ruby/stomp removed.
