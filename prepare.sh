@@ -10,6 +10,7 @@ Configuration:
 
 Enable overlay in layman:
 
+  # layman -f
   # layman -a scrill
 
 Content:
