@@ -69,6 +69,14 @@ Content:
 
   }
 
+  net-im {
+
+    Package:     jabbin
+    Versions:    3.0_beta1  
+    Description: Jabbin is a social application that combines VoIP, Instant Messaging and Social Networking.
+
+  }
+
   net-misc {
 
     Package:     putty
@@ -98,6 +106,9 @@ Content:
   }
 
 Changelog:
+
+07-06-2011:
+  * net-im/jabbin-3.0-beta1 added.
 
 20-05-2011:
   * app-admin/puppet removed.
