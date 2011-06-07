@@ -22,7 +22,7 @@ DEPEND=">=x11-libs/qt-gui-4.4
    >=x11-libs/qt-core-4.4
    >=app-crypt/qca-2.0
    media-libs/speex
-   || ( media-sound/phonon x11-libs/qt-phonon )"
+   || ( media-libs/phonon x11-libs/qt-phonon )"
 
 RDEPEND="${DEPEND}"
 
