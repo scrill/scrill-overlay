@@ -15,6 +15,10 @@ Content:
     Versions:    20110331  
     Description: Init script to setup Amazon EC2 instance parameters.
 
+    Package:     aws-as-api-tools
+    Versions:    1.0.33.1  
+    Description: The API tools serve as the client interface to the Auto Scaling web service.
+
     Package:     aws-cfn-tools
     Versions:    1.0.7  
     Description: The command line tools serve as the client interface to the AWS CloudFormation web service.
@@ -117,6 +121,7 @@ Changelog:
 
 21-06-2011:
   * app-admin/aws-cw-api-tools-1.0.12.1 added (CloudWatch API tools).
+  * app-admin/aws-as-api-tools-1.0.33.1 addes (Auto Scaling API tools).
   * app-admin/ec2-api-tools-1.4.3.0 added.
   * app-admin/aws-cfn-tools upgraded to 1.0.7.
   * app-admin/aws-elb-tools upgraded to 1.0.12.0.

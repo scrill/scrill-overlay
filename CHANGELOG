@@ -1,5 +1,6 @@
 21-06-2011:
   * app-admin/aws-cw-api-tools-1.0.12.1 added (CloudWatch API tools).
+  * app-admin/aws-as-api-tools-1.0.33.1 addes (Auto Scaling API tools).
   * app-admin/ec2-api-tools-1.4.3.0 added.
   * app-admin/aws-cfn-tools upgraded to 1.0.7.
   * app-admin/aws-elb-tools upgraded to 1.0.12.0.
