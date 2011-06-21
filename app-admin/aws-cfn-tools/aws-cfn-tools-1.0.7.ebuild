@@ -4,11 +4,11 @@
 
 EAPI="2"
 
-DESCRIPTION="The Command Line Toolkit for the Amazon Relational Database Service."
-HOMEPAGE="http://aws.amazon.com/developertools/2928"
-SRC_URI="http://s3.amazonaws.com/rds-downloads/RDSCli.zip"
+DESCRIPTION="The command line tools serve as the client interface to the AWS CloudFormation web service."
+HOMEPAGE="http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372"
+SRC_URI="https://s3.amazonaws.com/cloudformation-cli/AWSCloudFormation-cli.zip"
 
-S="${WORKDIR}/RDSCli-${PV}"
+S="${WORKDIR}/AWSCloudFormation-${PV}"
 
 LICENSE="Amazon"
 SLOT="0"
@@ -33,7 +33,7 @@ src_install() {
 
 	dodir /etc/env.d
 	cat - > "${T}"/99${PN} <<EOF
-AWS_RDS_HOME=/opt/${PN}
+AWS_CLOUDFORMATION_HOME=/opt/${PN}
 PATH=/opt/${PN}/bin
 ROOTPATH=/opt/${PN}/bin
 EOF

@@ -4,11 +4,11 @@
 
 EAPI="2"
 
-DESCRIPTION="The API tools serve as the client interface to the Elastic Load Balancing web service."
-HOMEPAGE="http://aws.amazon.com/developertools/Amazon-EC2/2536"
-SRC_URI="http://ec2-downloads.s3.amazonaws.com/ElasticLoadBalancing.zip"
+DESCRIPTION="The API tools serve as the client interface to the Amazon CloudWatch web service."
+HOMEPAGE="http://aws.amazon.com/developertools/2534"
+SRC_URI="http://ec2-downloads.s3.amazonaws.com/CloudWatch-2010-08-01.zip"
 
-S="${WORKDIR}/ElasticLoadBalancing-${PV}"
+S="${WORKDIR}/CloudWatch-${PV}"
 
 LICENSE="Amazon"
 SLOT="0"
@@ -33,13 +33,13 @@ src_install() {
 
 	dodir /etc/env.d
 	cat - > "${T}"/99${PN} <<EOF
-AWS_ELB_HOME=/opt/${PN}
+AWS_CLOUDWATCH_HOME=/opt/${PN}
 PATH=/opt/${PN}/bin
 ROOTPATH=/opt/${PN}/bin
 EOF
 	doenvd "${T}"/99${PN}
 
-	dodoc "license.txt"
+	dodoc "THIRDPARTYLICENSE.TXT"
 }
 
 pkg_postinst() {

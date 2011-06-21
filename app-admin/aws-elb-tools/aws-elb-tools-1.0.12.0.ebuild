@@ -4,11 +4,11 @@
 
 EAPI="2"
 
-DESCRIPTION="The command line tools serve as the client interface to the AWS CloudFormation web service."
-HOMEPAGE="http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372"
-SRC_URI="https://s3.amazonaws.com/cloudformation-cli/AWSCloudFormation-cli.zip"
+DESCRIPTION="The API tools serve as the client interface to the Elastic Load Balancing web service."
+HOMEPAGE="http://aws.amazon.com/developertools/Amazon-EC2/2536"
+SRC_URI="http://ec2-downloads.s3.amazonaws.com/ElasticLoadBalancing.zip"
 
-S="${WORKDIR}/AWSCloudFormation-${PV}"
+S="${WORKDIR}/ElasticLoadBalancing-${PV}"
 
 LICENSE="Amazon"
 SLOT="0"
@@ -33,13 +33,13 @@ src_install() {
 
 	dodir /etc/env.d
 	cat - > "${T}"/99${PN} <<EOF
-AWS_CLOUDFORMATION_HOME=/opt/${PN}
+AWS_ELB_HOME=/opt/${PN}
 PATH=/opt/${PN}/bin
 ROOTPATH=/opt/${PN}/bin
 EOF
 	doenvd "${T}"/99${PN}
 
-	dodoc "license.txt"
+	dodoc "THIRDPARTYLICENSE.TXT"
 }
 
 pkg_postinst() {
