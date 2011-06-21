@@ -18,38 +18,38 @@ DEPEND="app-arch/unzip"
 RDEPEND="virtual/jre"
 
 src_unpack() {
-	unpack ${A}
-	cd "${WORKDIR}/${PN}-${PV}"
-	find . -name '*.cmd' -delete || die
+  unpack ${A}
+  cd "${WORKDIR}/${PN}-${PV}"
+  find . -name '*.cmd' -delete || die
 }
 
 src_install() {
-	dodir /opt/${PN}
-	insinto /opt/${PN}/lib
-	doins -r "${S}"/lib/*
-	exeinto /opt/${PN}/bin
-	doexe "${S}"/bin/*
+  dodir /opt/${PN}
+  insinto /opt/${PN}/lib
+  doins -r "${S}"/lib/*
+  exeinto /opt/${PN}/bin
+  doexe "${S}"/bin/*
 
-	dodir /etc/env.d
-	cat - > "${T}"/99${PN} <<EOF
+  dodir /etc/env.d
+  cat - > "${T}"/99${PN} <<EOF
 EC2_HOME=/opt/${PN}
 PATH=/opt/${PN}/bin
 ROOTPATH=/opt/${PN}/bin
 EOF
-	doenvd "${T}"/99${PN}
+  doenvd "${T}"/99${PN}
 
-	dodoc THIRDPARTYLICENSE.TXT
+  dodoc THIRDPARTYLICENSE.TXT
 }
 
 pkg_postinst() {
-	ewarn "Remember to run: env-update && source /etc/profile if you plan"
-	ewarn "to use these tools in a shell before logging out (or restarting"
-	ewarn "your login manager)"
-	elog ""
-	elog ""
-	elog "You need to put the following in your ~/.bashrc replacing the"
-	elog "values with the full paths to your key and certificate."
-	elog " "
-	elog "	export EC2_PRIVATE_KEY=/path/to/pk-HKZYKTAIG2ECMXYIBH3HXV4ZBZQ55CLO.pem"
-	elog "	export EC2_CERT=/path/to/cert-HKZYKTAIG2ECMXYIBH3HXV4ZBZQ55CLO.pem"
+  ewarn "Remember to run: env-update && source /etc/profile if you plan"
+  ewarn "to use these tools in a shell before logging out (or restarting"
+  ewarn "your login manager)"
+  elog ""
+  elog ""
+  elog "You need to put the following in your ~/.bashrc replacing the"
+  elog "values with the full paths to your key and certificate."
+  elog " "
+  elog "  export EC2_PRIVATE_KEY=/path/to/pk-HKZYKTAIG2ECMXYIBH3HXV4ZBZQ55CLO.pem"
+  elog "  export EC2_CERT=/path/to/cert-HKZYKTAIG2ECMXYIBH3HXV4ZBZQ55CLO.pem"
 }

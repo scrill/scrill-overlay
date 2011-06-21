@@ -17,11 +17,11 @@ DEPEND=""
 RDEPEND=${DEPEND}
 
 src_install() {
-	cd milky
-	dodoc author readme.txt thanks.to
-	rm author license.txt readme.txt thanks.to
+  cd milky
+  dodoc author readme.txt thanks.to
+  rm author license.txt readme.txt thanks.to
 
-	cd ${WORKDIR}
-	insinto /usr/share/icons
-	doins -r milky
+  cd ${WORKDIR}
+  insinto /usr/share/icons
+  doins -r milky
 }

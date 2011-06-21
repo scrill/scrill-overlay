@@ -21,6 +21,6 @@ MODULE_NAMES="${PN}(acpi)"
 BUILD_TARGETS="module"
 
 src_install() {
-		linux-mod_src_install
-		dodoc README
+    linux-mod_src_install
+    dodoc README
 }

@@ -19,44 +19,45 @@ RDEPEND="virtual/jre"
 RESTRICT="mirror"
 
 src_unpack() {
-	unpack ${A}
-	cd ${S}
-	find . -name '*.cmd' -delete || die
+  unpack ${A}
+  cd ${S}
+  find . -name '*.cmd' -delete || die
   rm bin/as-cmd-2009-05-15
+  rm bin/service-2009-05-15
 }
 
 src_install() {
-	dodir /opt/${PN}
-	insinto /opt/${PN}/lib
-	doins -r "${S}"/lib/*
-	exeinto /opt/${PN}/bin
-	doexe "${S}"/bin/*
+  dodir /opt/${PN}
+  insinto /opt/${PN}/lib
+  doins -r "${S}"/lib/*
+  exeinto /opt/${PN}/bin
+  doexe "${S}"/bin/*
 
-	dodir /etc/env.d
-	cat - > "${T}"/99${PN} <<EOF
+  dodir /etc/env.d
+  cat - > "${T}"/99${PN} <<EOF
 AWS_AUTO_SCALING_HOME=/opt/${PN}
 PATH=/opt/${PN}/bin
 ROOTPATH=/opt/${PN}/bin
 EOF
-	doenvd "${T}"/99${PN}
+  doenvd "${T}"/99${PN}
 
-	dodoc "THIRDPARTYLICENSE.TXT"
+  dodoc "THIRDPARTYLICENSE.TXT"
 }
 
 pkg_postinst() {
-	ewarn "Remember to run: env-update && source /etc/profile if you plan"
-	ewarn "to use these tools in a shell before logging out (or restarting"
-	ewarn "your login manager)"
-	elog
-	elog "You need to put the following in your ~/.bashrc replacing the"
-	elog "values with the full path to your AWS credentials file."
-	elog
-	elog "	export AWS_CREDENTIAL_FILE=/path/and_filename_of_credential_file"
-	elog
-	elog "It should contains two lines: the first line lists the AWS Account's"
-	elog "AWS Access Key ID, and the second line lists the AWS Account's"
-	elog "Secret Access Key. For example:"
-	elog
-	elog "	AWSAccessKeyId=AKIAIOSFODNN7EXAMPLE"
-	elog "	AWSSecretKey=wJalrXUtnFEMI/K7MDENG/bPxRfiCYzEXAMPLEKEY"
+  ewarn "Remember to run: env-update && source /etc/profile if you plan"
+  ewarn "to use these tools in a shell before logging out (or restarting"
+  ewarn "your login manager)"
+  elog
+  elog "You need to put the following in your ~/.bashrc replacing the"
+  elog "values with the full path to your AWS credentials file."
+  elog
+  elog "  export AWS_CREDENTIAL_FILE=/path/and_filename_of_credential_file"
+  elog
+  elog "It should contains two lines: the first line lists the AWS Account's"
+  elog "AWS Access Key ID, and the second line lists the AWS Account's"
+  elog "Secret Access Key. For example:"
+  elog
+  elog "  AWSAccessKeyId=AKIAIOSFODNN7EXAMPLE"
+  elog "  AWSSecretKey=wJalrXUtnFEMI/K7MDENG/bPxRfiCYzEXAMPLEKEY"
 }

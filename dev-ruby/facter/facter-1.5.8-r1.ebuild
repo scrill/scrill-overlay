@@ -23,6 +23,6 @@ KEYWORDS="~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-maco
 RUBY_PATCHES=("${P}-freebsd-spec.patch" "${P}-ec2.patch" )
 
 ruby_add_bdepend "test? (
-		dev-ruby/mocha
-		dev-ruby/rspec:0
-	)"
+    dev-ruby/mocha
+    dev-ruby/rspec:0
+  )"

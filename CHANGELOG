@@ -6,6 +6,7 @@
   * app-admin/aws-elb-tools upgraded to 1.0.12.0.
   * app-admin/aws-rds-tools upgraded to 1.4.006.
   * Licenses fixed.
+  * Tabs changed to double spaces.
 
 07-06-2011:
   * net-im/jabbin-3.0-beta1 added.
