@@ -45,6 +45,14 @@ Content:
 
   }
 
+  app-editors {
+
+    Package:     geppetto
+    Versions:    1.0.0  
+    Description: An integrated toolset for developing puppet modules and manifests.
+
+  }
+
   app-laptop {
 
     Package:     lenovo-sl-laptop
@@ -118,6 +126,9 @@ Content:
   }
 
 Changelog:
+
+22-06-2011:
+  * app-editors/geppetto-1.0.0 added.
 
 21-06-2011:
   * app-admin/aws-cw-api-tools-1.0.12.1 added (CloudWatch API tools).
