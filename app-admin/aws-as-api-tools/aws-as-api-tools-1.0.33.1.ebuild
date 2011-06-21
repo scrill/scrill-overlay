@@ -22,6 +22,7 @@ src_unpack() {
 	unpack ${A}
 	cd ${S}
 	find . -name '*.cmd' -delete || die
+  rm bin/as-cmd-2009-05-15
 }
 
 src_install() {
