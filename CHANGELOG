@@ -3,6 +3,7 @@
   * app-admin/ec2-api-tools-1.4.3.0 added.
   * app-admin/aws-cfn-tools upgraded to 1.0.7.
   * app-admin/aws-elb-tools upgraded to 1.0.12.0.
+  * app-admin/aws-rds-tools upgraded to 1.4.006.
   * Licenses fixed.
 
 07-06-2011:
