@@ -4,7 +4,7 @@
 
 inherit eutils git linux-mod
 
-DESCRIPTION="Linux kernel support for the Lenovo SL series ThinkPads."
+DESCRIPTION="Linux kernel support for the Lenovo SL series ThinkPads"
 HOMEPAGE="http://github.com/tadzik/lenovo-sl-laptop"
 SRC_URI=""
 

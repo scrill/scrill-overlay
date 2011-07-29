@@ -14,7 +14,7 @@ RUBY_FAKEGEM_TASK_TEST=""
 
 inherit ruby-fakegem
 
-DESCRIPTION="RightScale's robust HTTP/S connection module."
+DESCRIPTION="RightScale's robust HTTP/S connection module"
 HOMEPAGE="http://rightscale.rubyforge.org/"
 
 LICENSE="MIT"

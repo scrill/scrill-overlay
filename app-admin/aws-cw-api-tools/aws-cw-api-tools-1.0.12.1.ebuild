@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-DESCRIPTION="The API tools serve as the client interface to the Amazon CloudWatch web service."
+DESCRIPTION="The API tools serve as the client interface to the Amazon CloudWatch web service"
 HOMEPAGE="http://aws.amazon.com/developertools/2534"
 SRC_URI="http://ec2-downloads.s3.amazonaws.com/CloudWatch-2010-08-01.zip"
 

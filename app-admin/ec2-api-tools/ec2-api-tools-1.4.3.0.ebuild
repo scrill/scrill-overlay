@@ -4,7 +4,7 @@
 
 inherit versionator
 
-DESCRIPTION="These command-line tools serve as the client interface to the Amazon EC2 web service."
+DESCRIPTION="These command-line tools serve as the client interface to the Amazon EC2 web service"
 HOMEPAGE="http://developer.amazonwebservices.com/connect/entry.jspa?externalID=351&categoryID=88"
 SRC_URI="http://s3.amazonaws.com/ec2-downloads/${PN}-${PV}.zip"
 

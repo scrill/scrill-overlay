@@ -6,7 +6,7 @@ EAPI="2"
 
 inherit eutils
 
-DESCRIPTION="RabbitMQ STOMP plugin."
+DESCRIPTION="RabbitMQ STOMP plugin"
 HOMEPAGE="http://www.rabbitmq.com/plugins.html#rabbitmq-stomp"
 
 AMQPCLIENT_URI="http://www.rabbitmq.com/releases/plugins/v${PV}/amqp_client-${PV}.ez"

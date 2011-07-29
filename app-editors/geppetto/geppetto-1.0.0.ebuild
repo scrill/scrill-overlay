@@ -5,7 +5,7 @@
 EAPI="2"
 inherit eutils
 
-DESCRIPTION="An integrated toolset for developing puppet modules and manifests."
+DESCRIPTION="An integrated toolset for developing puppet modules and manifests"
 HOMEPAGE="http://cloudsmith.github.com/geppetto"
 SRC_URI="x86?   ( https://github.com/downloads/cloudsmith/geppetto/geppetto-gtk.linux.x86-${PV}.v20110510-0811.zip )
          amd64? ( https://github.com/downloads/cloudsmith/geppetto/geppetto-gtk.linux.x86_64-${PV}.v20110510-0811.zip )"

@@ -6,7 +6,7 @@ EAPI="2"
 
 inherit qt4
 
-DESCRIPTION="Cross-platform pomodoro timer written in C++ using Qt4."
+DESCRIPTION="Cross-platform pomodoro timer written in C++ using Qt4"
 HOMEPAGE="http://sourceforge.net/p/qomodoro/"
 SRC_URI="mirror://sourceforge/project/${PN}/releases/${PV}/${P}-src.tar.bz2"
 

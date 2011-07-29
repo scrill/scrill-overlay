@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-DESCRIPTION="The Command Line Toolkit for the Amazon Relational Database Service."
+DESCRIPTION="The Command Line Toolkit for the Amazon Relational Database Service"
 HOMEPAGE="http://aws.amazon.com/developertools/2928"
 SRC_URI="http://s3.amazonaws.com/rds-downloads/RDSCli.zip"
 

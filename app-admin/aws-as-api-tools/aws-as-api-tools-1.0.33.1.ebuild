@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-DESCRIPTION="The API tools serve as the client interface to the Auto Scaling web service."
+DESCRIPTION="The API tools serve as the client interface to the Auto Scaling web service"
 HOMEPAGE="http://aws.amazon.com/developertools/2535"
 SRC_URI="http://ec2-downloads.s3.amazonaws.com/AutoScaling-2010-08-01.zip"
 

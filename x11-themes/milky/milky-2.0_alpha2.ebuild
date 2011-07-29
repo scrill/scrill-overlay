@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-DESCRIPTION="Icon theme for KDE 4 designed by Banu Önal."
+DESCRIPTION="Icon theme for KDE 4 designed by Banu Önal"
 HOMEPAGE="http://kde-look.org/content/show.php/Milky?content=133124"
 SRC_URI="http://cekirdek.pardus.org.tr/~gokcen/files/milky/${PN}-2.0-alpha2.tar.bz2"
 

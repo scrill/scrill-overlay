@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-DESCRIPTION="Kolobok smile pack for net-im/qutim."
+DESCRIPTION="Kolobok smile pack for net-im/qutim"
 HOMEPAGE="http://www.qutim.org"
 LICENSE="GPL-2"
 

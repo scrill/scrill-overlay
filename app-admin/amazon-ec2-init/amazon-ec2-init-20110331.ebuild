@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-DESCRIPTION="Init script to setup Amazon EC2 instance parameters."
+DESCRIPTION="Init script to setup Amazon EC2 instance parameters"
 HOMEPAGE="http://www.gentoo.org/"
 SRC_URI=""
 

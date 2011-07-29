@@ -11,7 +11,7 @@ RUBY_FAKEGEM_EXTRADOC="README.txt History.txt"
 
 inherit ruby-fakegem
 
-DESCRIPTION="A robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront."
+DESCRIPTION="A robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront"
 HOMEPAGE="http://www.rightscale.com/"
 
 LICENSE="MIT"

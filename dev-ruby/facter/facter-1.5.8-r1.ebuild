@@ -12,7 +12,7 @@ RUBY_FAKEGEM_BINWRAP="facter"
 
 inherit ruby-fakegem
 
-DESCRIPTION="A cross-platform Ruby library for retrieving facts from operating systems."
+DESCRIPTION="A cross-platform Ruby library for retrieving facts from operating systems"
 HOMEPAGE="http://www.puppetlabs.com/puppet/related-projects/facter/"
 
 LICENSE="GPL-2"
