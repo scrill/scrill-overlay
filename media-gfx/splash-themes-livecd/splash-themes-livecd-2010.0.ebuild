@@ -31,4 +31,5 @@ src_install() {
   cd ${WORKDIR}/gentoo-livecd-${PV}
   insinto /etc/splash/gentoo-livecd-${PV}
   doins -r * || die
+  doexe /etc/splash/gentoo-livecd-${PV}/scripts/* || die
 }
