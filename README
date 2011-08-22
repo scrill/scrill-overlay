@@ -109,6 +109,14 @@ Content:
 
   }
 
+  x11-misc {
+
+    Package:     nevernote
+    Versions:    0.99  
+    Description: An open source Evernote clone
+
+  }
+
   x11-themes {
 
     Package:     milky
@@ -122,6 +130,9 @@ Content:
   }
 
 Changelog:
+
+22-08-2011:
+  * x11-misc/nevernote-0.99 added.
 
 23-07-2011:
   * net-im/jabbin removed.
