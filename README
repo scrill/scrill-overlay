@@ -104,7 +104,7 @@ Content:
     Description: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 
     Package:     rabbitmq-stomp-plugin
-    Versions:    2.2.0  2.4.1  
+    Versions:    2.2.0  2.4.1  2.5.1  
     Description: RabbitMQ STOMP plugin.
 
   }
@@ -130,6 +130,9 @@ Content:
   }
 
 Changelog:
+
+25-08-2011:
+  * net-misc/rabbitmq-stomp-plugin-2.5.1 added.
 
 22-08-2011:
   * x11-misc/nevernote-0.99 added.
