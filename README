@@ -16,11 +16,11 @@ Content:
     Description: Init script to setup Amazon EC2 instance parameters
 
     Package:     aws-as-api-tools
-    Versions:    1.0.33.1  
+    Versions:    1.0.33.1  1.0.39.0  
     Description: The API tools serve as the client interface to the Auto Scaling web service
 
     Package:     aws-cfn-tools
-    Versions:    1.0.7  
+    Versions:    1.0.8  
     Description: The command line tools serve as the client interface to the AWS CloudFormation web service
 
     Package:     aws-cw-api-tools
@@ -40,7 +40,7 @@ Content:
     Description: The Command Line Toolkit for the Amazon Relational Database Service
 
     Package:     ec2-api-tools
-    Versions:    1.4.3.0  
+    Versions:    1.4.3.0  1.4.4.1  
     Description: These command-line tools serve as the client interface to the Amazon EC2 web service
 
   }
@@ -48,7 +48,7 @@ Content:
   app-editors {
 
     Package:     geppetto
-    Versions:    1.0.0  
+    Versions:    1.0.0  1.0.1  
     Description: An integrated toolset for developing puppet modules and manifests
 
   }
@@ -70,14 +70,6 @@ Content:
   }
 
   dev-ruby {
-
-    Package:     facter
-    Versions:    1.5.8-r1  
-    Description: A cross-platform Ruby library for retrieving facts from operating systems
-
-    Package:     rack
-    Versions:    1.0.1-r1  
-    Description: A modular Ruby webserver interface
 
     Package:     right_aws
     Versions:    2.1.0  
@@ -130,6 +122,14 @@ Content:
   }
 
 Changelog:
+
+28-08-2011:
+  * app-editors/geppetto-1.0.1 added.
+  * dev-ruby/facter/facter removed.
+  * dev-ruby/rack removed.
+  * app-admin/aws-as-api-tools-1.0.39.0 added.
+  * app-admin/aws-cfn-tools upraded to 1.0.8.
+  * app-admin/ec2-api-tools-1.4.4.1 added.
 
 25-08-2011:
   * net-misc/rabbitmq-stomp-plugin-2.5.1 added.
