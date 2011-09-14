@@ -7,7 +7,7 @@ inherit eutils
 
 DESCRIPTION="An integrated toolset for developing puppet modules and manifests"
 HOMEPAGE="http://cloudsmith.github.com/geppetto"
-SRC_URI="x86?   ( https://github.com/downloads/cloudsmith/geppetto/geppetto-gtk.linux.x86-${PV}.v20110629-2206.zip
+SRC_URI="x86?   ( https://github.com/downloads/cloudsmith/geppetto/geppetto-gtk.linux.x86-${PV}.v20110629-2206.zip )
          amd64? ( https://github.com/downloads/cloudsmith/geppetto/geppetto-gtk.linux.x86_64-${PV}.v20110629-2206.zip )"
 
 S="${WORKDIR}/${PN}"
