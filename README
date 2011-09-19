@@ -48,7 +48,7 @@ Content:
   app-editors {
 
     Package:     geppetto
-    Versions:    1.0.0  1.0.1  
+    Versions:    1.0.0  1.0.1  2.0.0  
     Description: An integrated toolset for developing puppet modules and manifests
 
   }
@@ -122,6 +122,9 @@ Content:
   }
 
 Changelog:
+
+19-09-2011:
+  * app-editors/geppetto-2.0.0 added.
 
 28-08-2011:
   * app-editors/geppetto-1.0.1 added.
