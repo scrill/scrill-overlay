@@ -22,6 +22,7 @@ DEPEND="${RDEPEND}
   dev-libs/libxslt
   dev-python/simplejson
 "
+RESTRICT="mirror"
 
 pkg_setup() {
   enewgroup rabbitmq

@@ -1,16 +1,10 @@
 #!/usr/bin/env bash
 
 readme='./README'
-changelog='./CHANGELOG'
 
 cat > $readme << "EOF"
-### Scrill overlay
-
-Configuration:
-
 Enable overlay in layman:
 
-  # layman -f
   # layman -a scrill
 
 Content:
@@ -26,7 +20,7 @@ for category in `ls -1 | grep -e "...-.*"`; do
         echo -n "$ebuild" | sed -E s%${package}-\|\.ebuild%%g >> $readme
         echo -n "  " >> $readme
       done
-      ebuild ./${category}/${package}/${ebuild} manifest
+      ebuild ./${category}/${package}/${ebuild} digest
       echo -ne "\n    Description: " >> $readme
       cat ./${category}/${package}/${ebuild} | grep 'DESCRIPTION' | awk -F '"' '{print $2}' >> $readme
       echo >> $readme
@@ -34,8 +28,5 @@ for category in `ls -1 | grep -e "...-.*"`; do
     echo -e "  }\n" >> $readme
   fi
 done
-
-echo -e 'Changelog:\n' >> $readme
-cat $changelog >> $readme
 
 exit 0

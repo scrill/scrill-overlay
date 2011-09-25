@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="app-arch/unzip"
 RDEPEND="virtual/jre"
+RESTRICT="mirror"
 
 src_unpack() {
   unpack ${A}

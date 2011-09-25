@@ -19,6 +19,7 @@ DOCS="LICENSE"
 
 DEPEND="x11-libs/qt-gui:4"
 RDEPEND="${DEPEND}"
+RESTRICT="mirror"
 
 S=${WORKDIR}/${P}
 

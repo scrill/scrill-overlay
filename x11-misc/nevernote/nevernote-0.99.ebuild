@@ -19,6 +19,7 @@ IUSE=""
 DEPEND=""
 RDEPEND=">=virtual/jdk-1.5
      media-libs/libpng:1.2"
+RESTRICT="mirror"
 
 S="${PN}"
 src_install() {

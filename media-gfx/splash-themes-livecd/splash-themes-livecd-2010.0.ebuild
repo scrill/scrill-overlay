@@ -8,13 +8,13 @@ inherit eutils
 
 DESCRIPTION="Gentoo theme for gensplash consoles"
 HOMEPAGE="http://www.gentoo.org/"
-SRC_URI="http://cloud.github.com/downloads/Scrill/scrill-overlay/gentoo-livecd-${PV}.tar.gz"
+SRC_URI="https://github.com/downloads/scrill/scrill-overlay/gentoo-livecd-${PV}.tar.gz"
 
 SLOT=${PV}
 LICENSE="as-is"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-RESTRICT="binchecks strip"
+RESTRICT="binchecks mirror strip"
 
 DEPEND=">=media-gfx/splashutils-1.4.1"
 

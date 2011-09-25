@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd"
 IUSE=""
 
-RESTRICT="strip binchecks"
+RESTRICT="binchecks mirror strip"
 
 DEPEND=""
 RDEPEND=${DEPEND}
