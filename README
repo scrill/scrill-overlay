@@ -15,7 +15,7 @@ Content:
     Description: The API tools serve as the client interface to the Auto Scaling web service
 
     Package:     aws-cfn-tools
-    Versions:    1.0.8  
+    Versions:    1.0.9  
     Description: The command line tools serve as the client interface to the AWS CloudFormation web service
 
     Package:     aws-cw-api-tools
