@@ -31,7 +31,7 @@ Content:
     Description: The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service
 
     Package:     aws-rds-tools
-    Versions:    1.4.006  
+    Versions:    1.4.007  
     Description: The Command Line Toolkit for the Amazon Relational Database Service
 
     Package:     ec2-api-tools
