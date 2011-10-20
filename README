@@ -35,7 +35,7 @@ Content:
     Description: The Command Line Toolkit for the Amazon Relational Database Service
 
     Package:     ec2-api-tools
-    Versions:    1.4.4.1  
+    Versions:    1.4.4.1  1.4.4.2  
     Description: These command-line tools serve as the client interface to the Amazon EC2 web service
 
   }
