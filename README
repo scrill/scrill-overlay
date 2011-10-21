@@ -46,6 +46,10 @@ Content:
     Versions:    2.0.0  
     Description: An integrated toolset for developing puppet modules and manifests
 
+    Package:     komodo-edit-bin
+    Versions:    6.1.3  
+    Description: Freeware advanced editor for dynamic and Web languages
+
   }
 
   app-laptop {
