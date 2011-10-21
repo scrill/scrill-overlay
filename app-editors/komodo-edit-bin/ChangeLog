@@ -1,0 +1,8 @@
+# ChangeLog for komodo-edit-bin
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*komodo-edit-bin-6.1.3 (21 Oct 2011)
+
+  21 Oct 2011; Scrill
+  +komodo-edit-bin-6.1.3.ebuild
