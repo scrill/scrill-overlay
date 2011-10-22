@@ -1,0 +1,9 @@
+# ChangeLog for app-admin/aws-cfn-bootstrap
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*aws-cfn-bootstrap-1.0 (22 Oct 2011)
+
+  22 Oct 2011; Scrill
+  +aws-cfn-bootstrap-1.0.ebuild:
+  New ebuild

@@ -1,5 +1,6 @@
 Enable overlay in layman:
 
+  # layman -f
   # layman -a scrill
 
 Content:
@@ -13,6 +14,10 @@ Content:
     Package:     aws-as-api-tools
     Versions:    1.0.39.0  
     Description: The API tools serve as the client interface to the Auto Scaling web service
+
+    Package:     aws-cfn-bootstrap
+    Versions:    1.0  
+    Description: Bootstrap scripts for AWS CloudFormation
 
     Package:     aws-cfn-tools
     Versions:    1.0.9  

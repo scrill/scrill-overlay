@@ -5,6 +5,7 @@ readme='./README'
 cat > $readme << "EOF"
 Enable overlay in layman:
 
+  # layman -f
   # layman -a scrill
 
 Content:
