@@ -73,6 +73,14 @@ Content:
 
   }
 
+  app-shells {
+
+    Package:     zsh-completions
+    Versions:    9999  
+    Description: Additional completion definitions for Zsh
+
+  }
+
   dev-ruby {
 
     Package:     right_aws
