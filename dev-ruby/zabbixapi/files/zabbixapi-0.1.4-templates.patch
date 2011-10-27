@@ -1,0 +1,13 @@
+diff -rU0 lib.old/host.rb lib/host.rb
+--- lib.old/host.rb	2011-06-28 21:10:37.000000000 +0300
++++ lib/host.rb	2011-06-28 21:23:39.000000000 +0300
+@@ -41,0 +42 @@
++        'templates' => [],
+@@ -51,0 +53 @@
++      host_options['templates'].map! { |template_id| {'templateid' => template_id} }
+diff -rU0 lib.old/template.rb lib/template.rb
+--- lib.old/template.rb	2011-06-28 21:10:37.000000000 +0300
++++ lib/template.rb	2011-06-28 21:27:41.000000000 +0300
+@@ -98 +98 @@
+-        result = responce.keys[0]
++        result = responce.first.values.first

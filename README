@@ -91,6 +91,10 @@ Content:
     Versions:    1.3.0  
     Description: RightScale's robust HTTP/S connection module
 
+    Package:     zabbixapi
+    Versions:    0.1.4-r1  
+    Description: Ruby module for work with Zabbix API
+
   }
 
   media-gfx {
