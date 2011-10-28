@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 OverlayRoot = '../'
-ExcludeDirs = [ 'profiles' ]
+ExcludeDirs = [ 'profiles', 'scripts' ]
 
 class String
   def dir_entries
@@ -37,16 +37,19 @@ end
 
 # Generate README.md
 readme = File.open(OverlayRoot + '/README.md', 'w')
-readme.puts "# Scrill overlay"
 readme.puts "## Usage\n    layman -f\n    layman -a scrill"
+readme.puts
 readme.puts "## Content"
+readme.puts
 overlay.keys.sort.each do |category|
   readme.puts "### #{category}"
+  readme.puts
   overlay[category].each do |package|
     readme.puts "#### #{package[:name]}"
-    readme.puts "* Versions    : #{package[:version].join(' : ')}"
+    readme.puts "* Versions    : #{package[:version].join(' :: ')}"
     readme.puts "* Description : #{package[:description]}"
     readme.puts "* Homepage    : #{package[:homepage]}"
+    readme.puts
   end
 end
 
