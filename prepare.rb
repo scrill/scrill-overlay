@@ -37,13 +37,13 @@ end
 
 # Generate README.md
 readme = File.open(OverlayRoot + '/README.md', 'w')
-readme.puts "Scrill overlay\n==============\n\n"
-readme.puts "Usage:\n------\n\n"
-readme.puts "Packages:\n---------\n\n"
+readme.puts "# Scrill overlay"
+readme.puts "## Usage:\n    layman -f\n    layman -a scrill"
+readme.puts "## Packages:"
 overlay.keys.sort.each do |category|
-  readme.puts "# category"
+  readme.puts "### category"
   overlay[category].each do |package|
-    readme.puts "### Package:  #{package[:name]}"
+    readme.puts "#### Package:  #{package[:name]}"
     readme.puts "    Description : #{package[:description]}"
     readme.puts "    Versions: #{package[:version].join(' ')}"
     readme.puts "    Homepage: #{package[:homepage]}"
