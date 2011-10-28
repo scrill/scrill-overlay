@@ -4,18 +4,18 @@
 # $Header: $
 
 depend() {
-  use dns logger
-  need localmount net
+	use dns logger
+	need localmount net
 }
 
 start() {
-  ebegin "Starting cfn-hup"
-  start-stop-daemon --start --exec /usr/bin/cfn-hup
-  eend $?
+	ebegin "Starting cfn-hup"
+	start-stop-daemon --start --exec /usr/bin/cfn-hup
+	eend $?
 }
 
 stop() {
-  ebegin "Stopping cfn-hup"
-  start-stop-daemon --stop --pidfile /var/run/cfn-hup.pid
-  eend $?
+	ebegin "Stopping cfn-hup"
+	start-stop-daemon --stop --pidfile /var/run/cfn-hup.pid
+	eend $?
 }

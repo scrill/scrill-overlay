@@ -19,15 +19,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools
-        dev-python/simplejson
-        dev-python/python-daemon"
-RDEPEND=""
+	dev-python/simplejson
+	dev-python/python-daemon"
+RDEPEND=$DEPEND
 
 src_install() {
-  distutils_src_install
-  rm -rf ${D}/usr/init
-  dodir /etc/cfn
-  insinto /etc/cfn
-  doins ${FILESDIR}/cfn-hup.conf.example
-  newinitd ${FILESDIR}/cfn-hup.init cfn-hup || die
+	distutils_src_install
+	rm -rf "${D}/usr/init"
+	dodir /etc/cfn
+	insinto /etc/cfn
+	doins "${FILESDIR}/cfn-hup.conf.example"
+	newinitd "${FILESDIR}/cfn-hup.init" cfn-hup || die
 }

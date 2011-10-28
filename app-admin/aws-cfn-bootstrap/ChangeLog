@@ -7,3 +7,9 @@
   22 Oct 2011; Scrill
   +aws-cfn-bootstrap-1.0.ebuild:
   New ebuild
+
+*aws-cfn-bootstrap-1.0 (29 Oct 2011)
+
+  29 Oct 2011; Scrill
+  -aws-cfn-bootstrap-1.0.ebuild, +aws-cfn-bootstrap-1.0-r1.ebuild:
+  RDEPEND fix.

@@ -20,9 +20,9 @@ RDEPEND="net-misc/wget"
 DEPEND=""
 
 src_install() {
-  newinitd "${FILESDIR}/amazon-ec2.init" amazon-ec2 || die
+	newinitd "${FILESDIR}/amazon-ec2.init" amazon-ec2 || die
 }
 
 pkg_postinst() {
-  elog "Remember to add amazon-ec2 init script to your default runlevel."
+	elog "Remember to add amazon-ec2 init script to your default runlevel."
 }
