@@ -3,115 +3,92 @@
     layman -f
     layman -a scrill
 ## Packages:
-### category
-#### Package:  aws-elb-tools
+### app-admin
+#### aws-elb-tools ([homepage](http://aws.amazon.com/developertools/Amazon-EC2/2536))
     Description : The API tools serve as the client interface to the Elastic Load Balancing web service
-    Versions: 1.0.14.3
-    Homepage: http://aws.amazon.com/developertools/Amazon-EC2/2536
-#### Package:  aws-cfn-tools
+    Versions:     1.0.14.3
+#### aws-cfn-tools ([homepage](http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372))
     Description : The command line tools serve as the client interface to the AWS CloudFormation web service
-    Versions: 1.0.9
-    Homepage: http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372
-#### Package:  ec2-api-tools
+    Versions:     1.0.9
+#### ec2-api-tools ([homepage](http://developer.amazonwebservices.com/connect/entry.jspa?externalID=351&categoryID=88))
     Description : These command-line tools serve as the client interface to the Amazon EC2 web service
-    Versions: 1.4.4.2 1.4.4.1
-    Homepage: http://developer.amazonwebservices.com/connect/entry.jspa?externalID=351&categoryID=88
-#### Package:  aws-rds-tools
+    Versions:     1.4.4.2 1.4.4.1
+#### aws-rds-tools ([homepage](http://aws.amazon.com/developertools/2928))
     Description : The Command Line Toolkit for the Amazon Relational Database Service
-    Versions: 1.4.007
-    Homepage: http://aws.amazon.com/developertools/2928
-#### Package:  aws-iam-tools
+    Versions:     1.4.007
+#### aws-iam-tools ([homepage](http://aws.amazon.com/developertools/AWS-Identity-and-Access-Management/4143))
     Description : The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service
-    Versions: 1.2.0
-    Homepage: http://aws.amazon.com/developertools/AWS-Identity-and-Access-Management/4143
-#### Package:  aws-cfn-bootstrap
+    Versions:     1.2.0
+#### aws-cfn-bootstrap ([homepage](http://aws.amazon.com/developertools/4026240853893296))
     Description : Bootstrap scripts for AWS CloudFormation
-    Versions: 1.0
-    Homepage: http://aws.amazon.com/developertools/4026240853893296
-#### Package:  aws-as-api-tools
+    Versions:     1.0
+#### aws-as-api-tools ([homepage](http://aws.amazon.com/developertools/2535))
     Description : The API tools serve as the client interface to the Auto Scaling web service
-    Versions: 1.0.39.0
-    Homepage: http://aws.amazon.com/developertools/2535
-#### Package:  amazon-ec2-init
+    Versions:     1.0.39.0
+#### amazon-ec2-init ([homepage](http://www.gentoo.org/))
     Description : Init script to setup Amazon EC2 instance parameters
-    Versions: 20110331
-    Homepage: http://www.gentoo.org/
-#### Package:  aws-cw-api-tools
+    Versions:     20110331
+#### aws-cw-api-tools ([homepage](http://aws.amazon.com/developertools/2534))
     Description : The API tools serve as the client interface to the Amazon CloudWatch web service
-    Versions: 1.0.12.1
-    Homepage: http://aws.amazon.com/developertools/2534
+    Versions:     1.0.12.1
 
-### category
-#### Package:  komodo-edit-bin
+### app-editors
+#### komodo-edit-bin ([homepage](http://www.activestate.com/products/komodo_edit))
     Description : Freeware advanced editor for dynamic and Web languages
-    Versions: 6.1.3
-    Homepage: http://www.activestate.com/products/komodo_edit
-#### Package:  geppetto
+    Versions:     6.1.3
+#### geppetto ([homepage](http://cloudsmith.github.com/geppetto))
     Description : An integrated toolset for developing puppet modules and manifests
-    Versions: 2.0.0
-    Homepage: http://cloudsmith.github.com/geppetto
+    Versions:     2.0.0
 
-### category
-#### Package:  lenovo-sl-laptop
+### app-laptop
+#### lenovo-sl-laptop ([homepage](http://github.com/tadzik/lenovo-sl-laptop))
     Description : Linux kernel support for the Lenovo SL series ThinkPads
-    Versions: 9999
-    Homepage: http://github.com/tadzik/lenovo-sl-laptop
+    Versions:     9999
 
-### category
-#### Package:  qomodoro
+### app-misc
+#### qomodoro ([homepage](http://sourceforge.net/p/qomodoro/))
     Description : Cross-platform pomodoro timer written in C++ using Qt4
-    Versions: 0.1-r1
-    Homepage: http://sourceforge.net/p/qomodoro/
+    Versions:     0.1-r1
 
-### category
-#### Package:  zsh-completions
+### app-shells
+#### zsh-completions ([homepage](https://github.com/zsh-users/zsh-completions))
     Description : Additional completion definitions for Zsh
-    Versions: 9999
-    Homepage: https://github.com/zsh-users/zsh-completions
+    Versions:     9999
 
-### category
-#### Package:  zabbixapi
+### dev-ruby
+#### zabbixapi ([homepage](http://github.com/verm666/RubyZabbixApi))
     Description : Ruby module for work with Zabbix API
-    Versions: 0.1.4-r1
-    Homepage: http://github.com/verm666/RubyZabbixApi
-#### Package:  right_http_connection
+    Versions:     0.1.4-r1
+#### right_http_connection ([homepage](http://rightscale.rubyforge.org/))
     Description : RightScale's robust HTTP/S connection module
-    Versions: 1.3.0
-    Homepage: http://rightscale.rubyforge.org/
-#### Package:  right_aws
+    Versions:     1.3.0
+#### right_aws ([homepage](http://www.rightscale.com/))
     Description : A robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront
-    Versions: 2.1.0
-    Homepage: http://www.rightscale.com/
+    Versions:     2.1.0
 
-### category
-#### Package:  splash-themes-livecd
+### media-gfx
+#### splash-themes-livecd ([homepage](http://www.gentoo.org/))
     Description : Gentoo theme for gensplash consoles
-    Versions: 2010.0
-    Homepage: http://www.gentoo.org/
+    Versions:     2010.0
 
-### category
-#### Package:  rabbitmq-stomp-plugin
+### net-misc
+#### rabbitmq-stomp-plugin ([homepage](http://www.rabbitmq.com/plugins.html#rabbitmq-stomp))
     Description : RabbitMQ STOMP plugin.
-    Versions: 2.5.1 2.2.0 2.4.1
-    Homepage: http://www.rabbitmq.com/plugins.html#rabbitmq-stomp
-#### Package:  rabbitmq-server
+    Versions:     2.5.1 2.2.0 2.4.1
+#### rabbitmq-server ([homepage](http://www.rabbitmq.com/))
     Description : RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
-    Versions: 2.2.0
-    Homepage: http://www.rabbitmq.com/
+    Versions:     2.2.0
 
-### category
-#### Package:  nevernote
+### x11-misc
+#### nevernote ([homepage](http://nevernote.sourceforge.net/index.htm))
     Description : An open source Evernote clone
-    Versions: 0.99
-    Homepage: http://nevernote.sourceforge.net/index.htm
+    Versions:     0.99
 
-### category
-#### Package:  milky
+### x11-themes
+#### milky ([homepage](http://kde-look.org/content/show.php/Milky?content=133124))
     Description : Icon theme for KDE 4 designed by Banu Önal
-    Versions: 2.0_alpha2 2.0
-    Homepage: http://kde-look.org/content/show.php/Milky?content=133124
-#### Package:  qutim-kolobok
+    Versions:     2.0_alpha2 2.0
+#### qutim-kolobok ([homepage](http://www.qutim.org))
     Description : Kolobok smile pack for net-im/qutim
-    Versions: 0.0.2
-    Homepage: http://www.qutim.org
+    Versions:     0.0.2
 
