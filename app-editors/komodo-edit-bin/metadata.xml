@@ -2,6 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer>
-    <email>srill@ya.ru</email>
+    <email>scrill@ya.ru</email>
   </maintainer>
+  <use>
+    <flag name='templates'>Install default templates.</flag>
+  </use>
 </pkgmetadata>

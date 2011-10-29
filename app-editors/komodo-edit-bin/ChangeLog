@@ -4,5 +4,11 @@
 
 *komodo-edit-bin-6.1.3 (21 Oct 2011)
 
+  29 Oct 2011; Scrill
+  -komodo-edit-bin-6.1.3.ebuild, +komodo-edit-bin-6.1.3-r1.ebuild:
+  fix LICENSE and IUSE
+
+*komodo-edit-bin-6.1.3 (21 Oct 2011)
+
   21 Oct 2011; Scrill
   +komodo-edit-bin-6.1.3.ebuild
