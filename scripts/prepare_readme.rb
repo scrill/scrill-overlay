@@ -46,7 +46,7 @@ overlay.keys.sort.each do |category|
   readme.puts
   overlay[category].each do |package|
     readme.puts "#### #{package[:name]}"
-    readme.puts "* Versions: #{package[:version].join(' :: ')}"
+    readme.puts "* Versions: #{package[:version].sort.join(' :: ')}"
     readme.puts "* Description: #{package[:description]}"
     readme.puts "* Homepage: #{package[:homepage]}"
     readme.puts

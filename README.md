@@ -17,7 +17,7 @@
 * Homepage: http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372
 
 #### ec2-api-tools
-* Versions: 1.4.4.2 :: 1.4.4.1
+* Versions: 1.4.4.1 :: 1.4.4.2
 * Description: These command-line tools serve as the client interface to the Amazon EC2 web service
 * Homepage: http://developer.amazonwebservices.com/connect/entry.jspa?externalID=351&categoryID=88
 
@@ -32,7 +32,7 @@
 * Homepage: http://aws.amazon.com/developertools/AWS-Identity-and-Access-Management/4143
 
 #### aws-cfn-bootstrap
-* Versions: 1.0
+* Versions: 1.0-r1
 * Description: Bootstrap scripts for AWS CloudFormation
 * Homepage: http://aws.amazon.com/developertools/4026240853893296
 
@@ -54,7 +54,7 @@
 ### app-editors
 
 #### komodo-edit-bin
-* Versions: 6.1.3
+* Versions: 6.1.3-r1
 * Description: Freeware advanced editor for dynamic and Web languages
 * Homepage: http://www.activestate.com/products/komodo_edit
 
@@ -111,7 +111,7 @@
 ### net-misc
 
 #### rabbitmq-stomp-plugin
-* Versions: 2.5.1 :: 2.2.0 :: 2.4.1
+* Versions: 2.2.0 :: 2.5.1
 * Description: RabbitMQ STOMP plugin.
 * Homepage: http://www.rabbitmq.com/plugins.html#rabbitmq-stomp
 
@@ -130,8 +130,8 @@
 ### x11-themes
 
 #### milky
-* Versions: 2.0_alpha2 :: 2.0
-* Description: Icon theme for KDE 4 designed by Banu Önal
+* Versions: 2.0 :: 2.0_alpha2
+* Description: Icon theme for KDE 4 designed by Banu Onal
 * Homepage: http://kde-look.org/content/show.php/Milky?content=133124
 
 #### qutim-kolobok

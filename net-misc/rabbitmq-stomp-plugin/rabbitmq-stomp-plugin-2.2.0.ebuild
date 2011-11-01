@@ -23,22 +23,22 @@ DEPEND="${RDEPEND}"
 RESTRICT="mirror"
 
 src_unpack() {
-    cp ${DISTDIR}/*-${PV}.ez ${WORKDIR}/
+	cp "${DISTDIR}/*-${PV}.ez" "${WORKDIR}/"
 }
 
 src_install() {
-    local PLUGINDIR="/usr/$(get_libdir)/erlang/lib/rabbitmq-server-${PV}/plugins"
-    dodir ${PLUGINDIR}
-    insinto ${PLUGINDIR}
-    doins *-${PV}.ez || die
+	local PLUGINDIR="/usr/$(get_libdir)/erlang/lib/rabbitmq-server-${PV}/plugins"
+	dodir ${PLUGINDIR}
+	insinto ${PLUGINDIR}
+	doins *-${PV}.ez || die
 }
 
 pkg_postinst() {
-    elog
-    elog "Please add the following line to your '/etc/rabbitmq/rabbitmq.conf' file:"
-    elog
-    elog "  SERVER_START_ARGS='-rabbit_stomp listeners [{\"0.0.0.0\",61613}]'"
-    elog
-    elog "and restart RabbitMQ server."
-    elog
+	elog
+	elog "Please add the following line to your '/etc/rabbitmq/rabbitmq.conf' file:"
+	elog
+	elog "  SERVER_START_ARGS='-rabbit_stomp listeners [{\"0.0.0.0\",61613}]'"
+	elog
+	elog "and restart RabbitMQ server."
+	elog
 }

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-inherit eutils git linux-mod
+inherit eutils git-2 linux-mod
 
 DESCRIPTION="Linux kernel support for the Lenovo SL series ThinkPads"
 HOMEPAGE="http://github.com/tadzik/lenovo-sl-laptop"
@@ -21,6 +21,6 @@ MODULE_NAMES="${PN}(acpi)"
 BUILD_TARGETS="module"
 
 src_install() {
-    linux-mod_src_install
-    dodoc README
+	linux-mod_src_install
+	dodoc README
 }

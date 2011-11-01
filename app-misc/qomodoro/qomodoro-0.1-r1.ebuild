@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit qt4
+inherit qt4-r2
 
 DESCRIPTION="Cross-platform pomodoro timer written in C++ using Qt4"
 HOMEPAGE="http://sourceforge.net/p/qomodoro/"
@@ -24,14 +24,13 @@ RESTRICT="mirror"
 S=${WORKDIR}/${P}
 
 src_compile() {
-  eqmake4
-  emake || die "Make failed"
+	eqmake4
+	emake || die "Make failed"
 }
 
 src_install() {
-  dobin ${PN}
-  dodoc LICENSE
-  mv "${S}"/img/logo.png "${S}"/img/${PN}.png 
-  doicon "${S}"/img/${PN}.png || die "Failed to install icon"
-  make_desktop_entry ${PN} ${PN} ${PN} "Application;Utility"
+	dobin ${PN}
+	mv "${S}"/img/logo.png "${S}"/img/${PN}.png
+	doicon "${S}"/img/${PN}.png || die "Failed to install icon"
+	make_desktop_entry ${PN} ${PN} ${PN} "Application;Utility"
 }

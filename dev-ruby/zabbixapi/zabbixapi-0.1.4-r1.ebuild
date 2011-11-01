@@ -24,5 +24,5 @@ RESTRICT="test"
 ruby_add_rdepend 'dev-ruby/json'
 
 all_ruby_prepare() {
-  epatch ${FILESDIR}/${P}-templates.patch
+	epatch "${FILESDIR}/${P}-templates.patch"
 }

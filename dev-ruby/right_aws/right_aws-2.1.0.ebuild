@@ -24,5 +24,5 @@ RESTRICT="test"
 ruby_add_rdepend '>=dev-ruby/right_http_connection-1.3.0 dev-ruby/uuidtools'
 
 all_ruby_prepare() {
-  sed -i -e '/rcovtask/s:^:#:' Rakefile || die
+	sed -i -e '/rcovtask/s:^:#:' Rakefile || die
 }

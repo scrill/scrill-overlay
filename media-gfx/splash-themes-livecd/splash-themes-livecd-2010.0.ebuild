@@ -17,21 +17,22 @@ IUSE=""
 RESTRICT="binchecks mirror strip"
 
 DEPEND=">=media-gfx/splashutils-1.4.1"
+RDEPEND=""
 
 pkg_setup() {
-  if ! built_with_use media-gfx/splashutils mng
-  then
-    ewarn "MNG support is missing from splashutils.  You will not see the"
-    ewarn "service icons as services are starting."
-  fi
+	if ! built_with_use media-gfx/splashutils mng
+	then
+		ewarn "MNG support is missing from splashutils.  You will not see the"
+		ewarn "service icons as services are starting."
+	fi
 }
 
 src_install() {
-  dodir /etc/splash/gentoo-livecd-${PV}
-  cd ${WORKDIR}/gentoo-livecd-${PV}
-  insinto /etc/splash/gentoo-livecd-${PV}
-  doins -r * || die
-  cd ${WORKDIR}/gentoo-livecd-${PV}/scripts
-  exeinto /etc/splash/gentoo-livecd-${PV}/scripts
-  doexe * || die
+	dodir /etc/splash/gentoo-livecd-${PV}
+	cd "${WORKDIR}/gentoo-livecd-${PV}"
+	insinto /etc/splash/gentoo-livecd-${PV}
+	doins -r * || die
+	cd "${WORKDIR}/gentoo-livecd-${PV}/scripts"
+	exeinto /etc/splash/gentoo-livecd-${PV}/scripts
+	doexe * || die
 }

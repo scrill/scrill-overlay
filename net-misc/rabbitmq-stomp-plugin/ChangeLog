@@ -1,3 +1,8 @@
 # ChangeLog for net-misc/rabbitmq-stomp-plugin
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
++rabbitmq-stomp-plugin-2.4.1 (01 Nov 2011)
+
+  01 Nov 2011; Scrill
+  -rabbitmq-stomp-plugin-2.4.1.ebuild

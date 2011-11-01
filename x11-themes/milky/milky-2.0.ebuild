@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-DESCRIPTION="Icon theme for KDE 4 designed by Banu Önal"
+DESCRIPTION="Icon theme for KDE 4 designed by Banu Onal"
 HOMEPAGE="http://kde-look.org/content/show.php/Milky?content=133124"
 SRC_URI="http://cekirdek.pardus.org.tr/~gokcen/files/milky/${P}.tar.bz2"
 
@@ -17,11 +17,11 @@ DEPEND=""
 RDEPEND=${DEPEND}
 
 src_install() {
-  cd milky
-  dodoc author readme.txt thanks.to
-  rm author license.txt readme.txt thanks.to
+	cd milky
+	dodoc author readme.txt thanks.to
+	rm author license.txt readme.txt thanks.to
 
-  cd ${WORKDIR}
-  insinto /usr/share/icons
-  doins -r milky
+	cd "${WORKDIR}"
+	insinto /usr/share/icons
+	doins -r milky
 }

@@ -17,24 +17,25 @@ IUSE=""
 RESTRICT="mirror"
 
 DEPEND="<net-im/qutim-0.3"
+RDEPEND=""
 
 src_unpack() {
-    unpack ${A}
-    sed -i 's/Kolobok Midi series dark skin/kolobok_dark_skin/' 'Kolobok Midi series dark skin/emoticons.xml'
-    sed -i 's/Kolobok Midi series light skin/kolobok_light_skin/' 'Kolobok Midi series light skin/emoticons.xml'
+	unpack ${A}
+	sed -i 's/Kolobok Midi series dark skin/kolobok_dark_skin/' 'Kolobok Midi series dark skin/emoticons.xml'
+	sed -i 's/Kolobok Midi series light skin/kolobok_light_skin/' 'Kolobok Midi series light skin/emoticons.xml'
 }
 
 src_install()
 {
-    local SHAREDIR="usr/share/qutim"
-    dodir ${SHAREDIR}
-    dodir ${SHAREDIR}/emoticons
-    dodir ${SHAREDIR}/emoticons/kolobok_dark_skin
-    dodir ${SHAREDIR}/emoticons/kolobok_light_skin
-    insinto ${SHAREDIR}/emoticons/kolobok_dark_skin
-    cd "${WORKDIR}/Kolobok Midi series dark skin"
-    doins * || die
-    insinto ${SHAREDIR}/emoticons/kolobok_light_skin
-    cd "${WORKDIR}/Kolobok Midi series light skin"
-    doins * || die
+	local SHAREDIR="usr/share/qutim"
+	dodir ${SHAREDIR}
+	dodir ${SHAREDIR}/emoticons
+	dodir ${SHAREDIR}/emoticons/kolobok_dark_skin
+	dodir ${SHAREDIR}/emoticons/kolobok_light_skin
+	insinto ${SHAREDIR}/emoticons/kolobok_dark_skin
+	cd "${WORKDIR}/Kolobok Midi series dark skin"
+	doins * || die
+	insinto ${SHAREDIR}/emoticons/kolobok_light_skin
+	cd "${WORKDIR}/Kolobok Midi series light skin"
+	doins * || die
 }
