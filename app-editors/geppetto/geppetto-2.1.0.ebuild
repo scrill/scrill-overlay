@@ -38,6 +38,6 @@ src_install() {
 	doicon ${PN}.xpm
 	exeinto /opt/${PN}
 	doexe geppetto
-	dosym /opt/${PN}/gepetto /usr/bin/gepetto
+	dosym /opt/${PN}/geppetto /usr/bin/geppetto
 	make_desktop_entry /opt/${PN}/${PN} Geppetto /usr/share/pixmaps/${PN}.xpm "IDE;Development"
 }
