@@ -59,7 +59,7 @@
 * Homepage: http://www.activestate.com/products/komodo_edit
 
 #### geppetto
-* Versions: 2.0.0 :: 2.1.0
+* Versions: 2.1.0
 * Description: An integrated toolset for developing puppet modules and manifests
 * Homepage: http://cloudsmith.github.com/geppetto
 
