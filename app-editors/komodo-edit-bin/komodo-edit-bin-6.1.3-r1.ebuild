@@ -48,7 +48,7 @@ src_install() {
 
 	# Most default templates are empty, or near-empty, and can clutter
 	# the new file dialog, so we permit not to install them.
-	use default-templates || (
+	use templates || (
 		rm -R "${D}/${KOMODO_EDIT_INSTALLDIR}/"lib/mozilla/extensions/*/templates/* &&
 		rm -R "${D}/${KOMODO_EDIT_INSTALLDIR}/"lib/support/default-templates/* ||
 			die "failed removing default templates"
