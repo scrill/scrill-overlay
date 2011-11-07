@@ -101,6 +101,11 @@
 * Description: A robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront
 * Homepage: http://www.rightscale.com/
 
+#### aws-ses
+* Versions: 0.4.3
+* Description: Client library for Amazon's Simple Email Service's REST API
+* Homepage: https://github.com/drewblas/aws-ses
+
 ### media-gfx
 
 #### splash-themes-livecd
