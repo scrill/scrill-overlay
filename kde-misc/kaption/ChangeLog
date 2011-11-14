@@ -1,0 +1,9 @@
+# ChangeLog for kde-misc/kaption
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*kde-misc/kaption (14 Nov 2011)
+
+  14 Nov 2011; Scrill
+  +kaption-0.1.1.ebuild:
+  initial ebuild, based on gt-overlay://kde-misc/kaption/kaption-0.0.9.ebuild

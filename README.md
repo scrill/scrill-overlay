@@ -106,6 +106,13 @@
 * Description: Client library for Amazon's Simple Email Service's REST API
 * Homepage: https://github.com/drewblas/aws-ses
 
+### kde-misc
+
+#### kaption
+* Versions: 0.1.1
+* Description: A KDE utility similar to Jing or Skitch not yet as powerful as them
+* Homepage: http://opendesktop.org/content/show.php?content=139302
+
 ### media-gfx
 
 #### splash-themes-livecd
