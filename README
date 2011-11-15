@@ -1,0 +1,106 @@
+# Usage
+  layman -f
+  layman -a scrill
+
+# Content
+
+  app-admin/aws-elb-tools : 1.0.14.3
+  The API tools serve as the client interface to the Elastic Load Balancing web service
+  http://aws.amazon.com/developertools/Amazon-EC2/2536
+
+  app-admin/aws-cfn-tools : 1.0.9
+  The command line tools serve as the client interface to the AWS CloudFormation web service
+  http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372
+
+  app-admin/ec2-api-tools : 1.4.4.1, 1.4.4.2
+  These command-line tools serve as the client interface to the Amazon EC2 web service
+  http://developer.amazonwebservices.com/connect/entry.jspa?externalID=351&categoryID=88
+
+  app-admin/aws-rds-tools : 1.4.007
+  The Command Line Toolkit for the Amazon Relational Database Service
+  http://aws.amazon.com/developertools/2928
+
+  app-admin/aws-iam-tools : 1.2.0
+  The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service
+  http://aws.amazon.com/developertools/AWS-Identity-and-Access-Management/4143
+
+  app-admin/aws-cfn-bootstrap : 1.0-r1
+  Bootstrap scripts for AWS CloudFormation
+  http://aws.amazon.com/developertools/4026240853893296
+
+  app-admin/aws-as-api-tools : 1.0.39.0
+  The API tools serve as the client interface to the Auto Scaling web service
+  http://aws.amazon.com/developertools/2535
+
+  app-admin/amazon-ec2-init : 20110331
+  Init script to setup Amazon EC2 instance parameters
+  http://www.gentoo.org/
+
+  app-admin/aws-cw-api-tools : 1.0.12.1
+  The API tools serve as the client interface to the Amazon CloudWatch web service
+  http://aws.amazon.com/developertools/2534
+
+  app-editors/komodo-edit-bin : 6.1.3-r1
+  Freeware advanced editor for dynamic and Web languages
+  http://www.activestate.com/products/komodo_edit
+
+  app-editors/geppetto : 2.1.0
+  An integrated toolset for developing puppet modules and manifests
+  http://cloudsmith.github.com/geppetto
+
+  app-laptop/lenovo-sl-laptop : 9999
+  Linux kernel support for the Lenovo SL series ThinkPads
+  http://github.com/tadzik/lenovo-sl-laptop
+
+  app-misc/qomodoro : 0.1-r1
+  Cross-platform pomodoro timer written in C++ using Qt4
+  http://sourceforge.net/p/qomodoro/
+
+  app-shells/zsh-completions : 9999
+  Additional completion definitions for Zsh
+  https://github.com/zsh-users/zsh-completions
+
+  dev-ruby/zabbixapi : 0.1.4-r1
+  Ruby module for work with Zabbix API
+  http://github.com/verm666/RubyZabbixApi
+
+  dev-ruby/right_http_connection : 1.3.0
+  RightScale's robust HTTP/S connection module
+  http://rightscale.rubyforge.org/
+
+  dev-ruby/right_aws : 2.1.0
+  A robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront
+  http://www.rightscale.com/
+
+  dev-ruby/aws-ses : 0.4.3
+  Client library for Amazon's Simple Email Service's REST API
+  https://github.com/drewblas/aws-ses
+
+  kde-misc/kaption : 0.1.1
+  A KDE utility similar to Jing or Skitch not yet as powerful as them
+  http://opendesktop.org/content/show.php?content=139302
+
+  media-gfx/splash-themes-livecd : 2010.0
+  Gentoo theme for gensplash consoles
+  http://www.gentoo.org/
+
+  net-misc/rabbitmq-stomp-plugin : 2.2.0, 2.5.1
+  RabbitMQ STOMP plugin.
+  http://www.rabbitmq.com/plugins.html#rabbitmq-stomp
+
+  net-misc/rabbitmq-server : 2.2.0
+  RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
+  http://www.rabbitmq.com/
+
+  x11-misc/nevernote : 0.99
+  An open source Evernote clone
+  http://nevernote.sourceforge.net/index.htm
+
+  x11-themes/milky : 2.0, 2.0_alpha2
+  Icon theme for KDE 4 designed by Banu Onal
+  http://kde-look.org/content/show.php/Milky?content=133124
+
+  x11-themes/qutim-kolobok : 0.0.2
+  Kolobok smile pack for net-im/qutim
+  http://www.qutim.org
+
