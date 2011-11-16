@@ -52,10 +52,6 @@
   Linux kernel support for the Lenovo SL series ThinkPads
   http://github.com/tadzik/lenovo-sl-laptop
 
-  app-misc/qomodoro : 0.1-r1
-  Cross-platform pomodoro timer written in C++ using Qt4
-  http://sourceforge.net/p/qomodoro/
-
   app-shells/zsh-completions : 9999
   Additional completion definitions for Zsh
   https://github.com/zsh-users/zsh-completions
@@ -95,6 +91,10 @@
   x11-misc/nevernote : 0.99
   An open source Evernote clone
   http://nevernote.sourceforge.net/index.htm
+
+  x11-misc/qomodoro : 0.1-r1
+  Cross-platform pomodoro timer written in C++ using Qt4
+  http://sourceforge.net/p/qomodoro/
 
   x11-themes/milky : 2.0, 2.0_alpha2
   Icon theme for KDE 4 designed by Banu Onal
