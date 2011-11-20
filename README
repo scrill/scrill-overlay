@@ -13,7 +13,7 @@
   The command line tools serve as the client interface to the AWS CloudFormation web service
   http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372
 
-  app-admin/ec2-api-tools : 1.4.4.1, 1.4.4.2
+  app-admin/ec2-api-tools : 1.4.4.2, 1.5.0.0
   These command-line tools serve as the client interface to the Amazon EC2 web service
   http://developer.amazonwebservices.com/connect/entry.jspa?externalID=351&categoryID=88
 

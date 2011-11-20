@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ec2-api-tools-1.5.0.0 (20 Nov 2011)
+
+  20 Nov 2011; Scrill
+  +ec2-api-tools-1.5.0.0.ebuild, -ec2-api-tools-1.4.4.1:
+  version bump
+
 *ec2-api-tools-1.4.4.2 (20 Oct 2011)
 
   20 Oct 2011; Scrill
