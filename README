@@ -5,6 +5,10 @@
 
 # Content
 
+  app-admin/aws-sns-tools : 1.0.2.3
+  Command Line Interface Tool for Amazon Simple Notification Service
+  http://aws.amazon.com/developertools/3688
+
   app-admin/aws-elb-tools : 1.0.14.3
   The API tools serve as the client interface to the Elastic Load Balancing web service
   http://aws.amazon.com/developertools/Amazon-EC2/2536
