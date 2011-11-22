@@ -37,15 +37,23 @@ end
 
 # Generate README
 readme = File.open(OverlayRoot + '/README', 'w')
-readme.puts "# Usage\n\n  layman -f\n  layman -a scrill\n\n"
-readme.puts "# Content\n\n"
+readme.puts "# Usage:\n\n  layman -f\n  layman -a scrill\n\n"
+readme.puts "# Content:\n"
 overlay.keys.sort.each do |category|
+  readme.puts "\n  #{category} {"
   overlay[category].each do |package|
-    readme.puts "  #{category}/#{package[:name]} : #{package[:version].sort.join(', ')}"
-    readme.puts "  #{package[:description]}"
-    readme.puts "  #{package[:homepage]}"
     readme.puts
+    readme.puts "    #{package[:name]} {"
+    if package[:version].size > 1
+      readme.puts "      version     => [ \"#{package[:version].sort.join('", "')}\" ]" + ','
+    else
+      readme.puts "      version     => \"#{package[:version].sort.join('", "')}\"" + ','
+    end
+    readme.puts "      description => \"#{package[:description]}\"" + ','
+    readme.puts "      homepage    => \" #{package[:homepage]}\""
+    readme.puts "    }"
   end
+  readme.puts "\n  }"
 end
 
 readme.close
