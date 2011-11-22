@@ -65,7 +65,7 @@
   RightScale's robust HTTP/S connection module
   http://rightscale.rubyforge.org/
 
-  dev-ruby/right_aws : 2.1.0
+  dev-ruby/right_aws : 2.1.0, 3.0.0
   A robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront
   http://www.rightscale.com/
 
