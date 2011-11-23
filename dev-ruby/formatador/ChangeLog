@@ -1,0 +1,9 @@
+# ChangeLog for dev-ruby/formatador
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*dev-ruby/formatador (23 Nov 2011)
+
+  23 Nov 2011; Scrill
+  +formatador-0.2.1.ebuild:
+  initial ebuild

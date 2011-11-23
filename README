@@ -107,6 +107,18 @@
 
   dev-ruby {
 
+    fog {
+      version     => "1.1.1",
+      description => "The Ruby cloud services library",
+      homepage    => " http://fog.io/"
+    }
+
+    excon {
+      version     => "0.7.6",
+      description => "EXtended http(s) CONnections",
+      homepage    => " https://github.com/geemus/excon"
+    }
+
     zabbixapi {
       version     => "0.1.4-r1",
       description => "Ruby module for work with Zabbix API",
@@ -123,6 +135,12 @@
       version     => [ "2.1.0", "3.0.0" ],
       description => "A robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront",
       homepage    => " http://www.rightscale.com/"
+    }
+
+    formatador {
+      version     => "0.2.1",
+      description => "STDOUT text formatting",
+      homepage    => " https://github.com/geemus/formatador"
     }
 
     aws-ses {

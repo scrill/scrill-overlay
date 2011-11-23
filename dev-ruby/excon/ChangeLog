@@ -1,0 +1,9 @@
+# ChangeLog for dev-ruby/excon
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*dev-ruby/excon (23 Nov 2011)
+
+  23 Nov 2011; Scrill
+  +excon-0.7.6.ebuild:
+  initial ebuild
