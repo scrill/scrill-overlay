@@ -20,3 +20,5 @@ KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 RESTRICT="mirror"
+
+ruby_add_rdepend="dev-ruby/yajl-ruby"
