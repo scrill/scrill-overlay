@@ -21,4 +21,4 @@ IUSE=""
 
 RESTRICT="mirror"
 
-ruby_add_rdepend="dev-ruby/yajl-ruby"
+ruby_add_rdepend "dev-ruby/yajl-ruby"
