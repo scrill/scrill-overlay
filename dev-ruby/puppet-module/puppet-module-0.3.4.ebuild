@@ -5,7 +5,8 @@
 EAPI=2
 USE_RUBY="ruby18"
 
-RUBY_FAKEGEM_EXTRADOC="README.markdown"
+RUBY_FAKEGEM_EXTRAINSTALL="templates VERSION"
+RUBY_FAKEGEM_EXTRADOC="README.markdown CHANGES.markdown"
 
 inherit ruby-fakegem
 
