@@ -19,4 +19,6 @@ IUSE=""
 
 RESTRICT="mirror"
 
-ruby_add_rdepend "app-admin/puppet"
+ruby_add_rdepend "
+	app-admin/puppet
+	dev-ruby/facets"
