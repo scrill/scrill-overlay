@@ -21,4 +21,6 @@ RESTRICT="mirror"
 
 ruby_add_rdepend "
 	app-admin/puppet
-	dev-ruby/facets"
+	dev-ruby/facets
+	dev-ruby/multipart-post
+	dev-ruby/thor"
