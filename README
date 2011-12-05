@@ -143,6 +143,12 @@
       homepage    => " https://github.com/geemus/formatador"
     }
 
+    puppet-module {
+      version     => "0.3.4",
+      description => "The Puppet Module Tool creates, installs and searches for Puppet modules",
+      homepage    => " https://github.com/puppetlabs/puppet-module-tool"
+    }
+
     zabbix {
       version     => "0.4.0",
       description => "Send data to Zabbix from Ruby",
