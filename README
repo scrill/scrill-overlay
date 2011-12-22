@@ -173,6 +173,16 @@
 
   }
 
+  mail-client {
+
+    thunderbird {
+      version     => "8.0-r1",
+      description => "Thunderbird Mail Client",
+      homepage    => " http://www.mozilla.com/en-US/thunderbird/"
+    }
+
+  }
+
   media-gfx {
 
     splash-themes-livecd {
@@ -195,6 +205,16 @@
       version     => "2.2.0",
       description => "RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang",
       homepage    => " http://www.rabbitmq.com/"
+    }
+
+  }
+
+  www-client {
+
+    firefox {
+      version     => "8.0",
+      description => "Firefox Web Browser",
+      homepage    => " http://www.mozilla.com/firefox"
     }
 
   }
