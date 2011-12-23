@@ -37,12 +37,6 @@
       homepage    => " http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372"
     }
 
-    ec2-api-tools {
-      version     => [ "1.4.4.2", "1.5.0.0" ],
-      description => "These command-line tools serve as the client interface to the Amazon EC2 web service",
-      homepage    => " http://developer.amazonwebservices.com/connect/entry.jspa?externalID=351&categoryID=88"
-    }
-
     aws-rds-tools {
       version     => "1.4.007",
       description => "The Command Line Toolkit for the Amazon Relational Database Service",
