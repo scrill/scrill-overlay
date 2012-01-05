@@ -23,14 +23,16 @@ DEPEND="${RDEPEND}"
 RESTRICT="mirror"
 
 src_unpack() {
-	cp "${DISTDIR}/*-${PV}.ez" "${WORKDIR}/"
+	cp "${DISTDIR}/amqp_client-${PV}.ez" "${WORKDIR}/"
+	cp "${DISTDIR}/rabbitmq_stomp-${PV}.ez" "${WORKDIR}/"
 }
 
 src_install() {
 	local PLUGINDIR="/usr/$(get_libdir)/erlang/lib/rabbitmq_server-${PV}/plugins"
 	dodir ${PLUGINDIR}
 	insinto ${PLUGINDIR}
-	doins *-${PV}.ez || die
+	doins amqp_client-${PV}.ez || die
+	doins rabbitmq_stomp-${PV}.ez || die
 }
 
 pkg_postinst() {
