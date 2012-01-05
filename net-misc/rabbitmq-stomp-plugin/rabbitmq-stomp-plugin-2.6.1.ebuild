@@ -6,11 +6,11 @@ EAPI="2"
 
 inherit eutils
 
-DESCRIPTION="RabbitMQ STOMP plugin"
+DESCRIPTION="RabbitMQ STOMP plugin."
 HOMEPAGE="http://www.rabbitmq.com/plugins.html#rabbitmq-stomp"
 
 AMQPCLIENT_URI="http://www.rabbitmq.com/releases/plugins/v${PV}/amqp_client-${PV}.ez"
-RABBITSTOMP_URI="http://www.rabbitmq.com/releases/plugins/v${PV}/rabbit_stomp-${PV}.ez"
+RABBITSTOMP_URI="http://www.rabbitmq.com/releases/plugins/v${PV}/rabbitmq_stomp-${PV}.ez"
 SRC_URI="${AMQPCLIENT_URI} ${RABBITSTOMP_URI}"
 
 LICENSE="MPL-1.1"
@@ -27,7 +27,7 @@ src_unpack() {
 }
 
 src_install() {
-	local PLUGINDIR="/usr/$(get_libdir)/erlang/lib/rabbitmq-server-${PV}/plugins"
+	local PLUGINDIR="/usr/$(get_libdir)/erlang/lib/rabbitmq_server-${PV}/plugins"
 	dodir ${PLUGINDIR}
 	insinto ${PLUGINDIR}
 	doins *-${PV}.ez || die
@@ -35,9 +35,9 @@ src_install() {
 
 pkg_postinst() {
 	elog
-	elog "Please add the following line to your '/etc/rabbitmq/rabbitmq.conf' file:"
+	elog "Please add the following line to your '/etc/rabbitmq/rabbitmq-env.conf' file:"
 	elog
-	elog "  SERVER_START_ARGS='-rabbit_stomp listeners [{\"0.0.0.0\",61613}]'"
+	elog "  SERVER_START_ARGS='-rabbit_stomp tcp_listeners [{\"0.0.0.0\",61613}]'"
 	elog
 	elog "and restart RabbitMQ server."
 	elog
