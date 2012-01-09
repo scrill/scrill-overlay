@@ -209,6 +209,16 @@
 
   }
 
+  net-im {
+
+    nagzilla {
+      version     => "2.0",
+      description => "Jabber Relay Bot - for monitoring and any other sort of alert needs you have",
+      homepage    => " http://code.google.com/p/nagzilla/"
+    }
+
+  }
+
   net-misc {
 
     rabbitmq-stomp-plugin {
