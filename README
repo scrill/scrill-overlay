@@ -105,6 +105,16 @@
 
   }
 
+  dev-perl {
+
+    Log-LogLite {
+      version     => "0.82",
+      description => "The Log::LogLite class helps us create simple logs for our application",
+      homepage    => " "
+    }
+
+  }
+
   dev-ruby {
 
     fog {
