@@ -6,7 +6,7 @@ EAPI="3"
 
 inherit eutils java-pkg-2
 
-DESCRIPTION="yEd is a powerful diagram editor that can be used to quickly and effectively generate high-quality drawings of diagrams."
+DESCRIPTION="Powerful diagram editor that can be used to generate high-quality drawings of diagrams."
 HOMEPAGE="http://www.yworks.com/en/products_yed_about.html"
 SRC_URI="yEd-${PV}.zip"
 MY_JAR="${P}.jar"
@@ -22,16 +22,14 @@ DEPEND="
 	app-arch/unzip
 	${RDEPEND}"
 
-
 pkg_nofetch() {
 	einfo "Please download the ${SRC_URI} from"
 	einfo "${DOWNLOAD_URL}"
 	einfo "and place it in ${DISTDIR}"
 }
 
-
 src_unpack() {
-	unzip "${DISTDIR}/"${A} -d ${S}
+	unzip "${DISTDIR}/${A}" -d "${S}"
 }
 
 src_install() {
@@ -40,4 +38,3 @@ src_install() {
 	make_desktop_entry ${PN} yEd
 	dodoc "${S}/${P}"/license.html
 }
-

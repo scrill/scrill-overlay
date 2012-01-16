@@ -19,8 +19,7 @@ RESTRICT="mirror"
 DEPEND="<net-im/qutim-0.3"
 RDEPEND=""
 
-src_unpack() {
-	unpack ${A}
+src_prepare() {
 	sed -i 's/Kolobok Midi series dark skin/kolobok_dark_skin/' 'Kolobok Midi series dark skin/emoticons.xml'
 	sed -i 's/Kolobok Midi series light skin/kolobok_light_skin/' 'Kolobok Midi series light skin/emoticons.xml'
 }

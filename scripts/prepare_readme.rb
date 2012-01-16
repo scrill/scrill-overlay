@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 OverlayRoot = '../'
-ExcludeDirs = [ 'profiles', 'scripts' ]
+ExcludeDirs = [ 'licenses', 'profiles', 'scripts' ]
 
 class String
   def dir_entries

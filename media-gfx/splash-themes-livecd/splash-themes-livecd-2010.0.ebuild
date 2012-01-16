@@ -20,7 +20,7 @@ DEPEND=">=media-gfx/splashutils-1.4.1"
 RDEPEND=""
 
 pkg_setup() {
-	if ! built_with_use media-gfx/splashutils mng
+	if ! use mng
 	then
 		ewarn "MNG support is missing from splashutils.  You will not see the"
 		ewarn "service icons as services are starting."

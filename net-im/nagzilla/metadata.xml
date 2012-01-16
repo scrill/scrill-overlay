@@ -4,4 +4,7 @@
   <maintainer>
     <email>scrill@ya.ru</email>
   </maintainer>
+  <use>
+    <flag name="server">Enable nagzilla server</flag>
+  </use>
 </pkgmetadata>
