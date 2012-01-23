@@ -149,6 +149,12 @@
       homepage    => " http://www.rightscale.com/"
     }
 
+    puppet-lint {
+      version     => "0.1.11",
+      description => "Checks your Puppet manifests against the Puppetlabs style guide and alerts you to any discrepancies",
+      homepage    => " https://github.com/rodjek/puppet-lint"
+    }
+
     formatador {
       version     => "0.2.1",
       description => "STDOUT text formatting",
