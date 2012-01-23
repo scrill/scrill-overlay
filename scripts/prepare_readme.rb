@@ -36,25 +36,25 @@ OverlayRoot.dir_entries.each do |category|
 end
 
 # Generate README
-readme = File.open(OverlayRoot + '/README', 'w')
-readme.puts "# Note: overlay path now is in lowercase. You should re-add it to Layman or fix '.git/config' file. Sorry\n\n"
-readme.puts "# Usage:\n\n  layman -f\n  layman -a scrill\n\n"
-readme.puts "# Content:\n"
+readme = File.open(OverlayRoot + '/README.md', 'w')
+readme.puts "## Notes\n\noverlay path now is in lowercase. You should re-add it to Layman or fix '.git/config' file. Sorry\n\n"
+readme.puts "## Usage\n\n    layman -f\n    layman -a scrill\n\n"
+readme.puts "## Content\n"
 overlay.keys.sort.each do |category|
-  readme.puts "\n  #{category} {"
+  readme.puts "\n    #{category} {"
   overlay[category].each do |package|
     readme.puts
-    readme.puts "    #{package[:name]} {"
+    readme.puts "      #{package[:name]} {"
     if package[:version].size > 1
-      readme.puts "      version     => [ \"#{package[:version].sort.join('", "')}\" ]" + ','
+      readme.puts "        version     => [ \"#{package[:version].sort.join('", "')}\" ]" + ','
     else
-      readme.puts "      version     => \"#{package[:version].sort.join('", "')}\"" + ','
+      readme.puts "        version     => \"#{package[:version].sort.join('", "')}\"" + ','
     end
-    readme.puts "      description => \"#{package[:description]}\"" + ','
-    readme.puts "      homepage    => \" #{package[:homepage]}\""
-    readme.puts "    }"
+    readme.puts "        description => \"#{package[:description]}\"" + ','
+    readme.puts "        homepage    => \" #{package[:homepage]}\""
+    readme.puts "      }"
   end
-  readme.puts "\n  }"
+  readme.puts "\n    }"
 end
 
 readme.close
