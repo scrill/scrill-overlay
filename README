@@ -97,6 +97,16 @@
 
   }
 
+  app-misc {
+
+    tnote {
+      version     => "0.2.1",
+      description => "A small note taking program for the terminal",
+      homepage    => " http://sourceforge.net/projects/tnote/"
+    }
+
+  }
+
   app-shells {
 
     zsh-completions {
