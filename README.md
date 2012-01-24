@@ -203,16 +203,6 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
 
     }
 
-    mail-client {
-
-      thunderbird {
-        version     => "8.0-r1",
-        description => "Thunderbird Mail Client",
-        homepage    => " http://www.mozilla.com/en-US/thunderbird/"
-      }
-
-    }
-
     media-gfx {
 
       yed {
@@ -245,16 +235,6 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
         version     => [ "2.5.1", "2.6.1" ],
         description => "RabbitMQ STOMP plugin.",
         homepage    => " http://www.rabbitmq.com/plugins.html#rabbitmq-stomp"
-      }
-
-    }
-
-    www-client {
-
-      firefox {
-        version     => "8.0",
-        description => "Firefox Web Browser",
-        homepage    => " http://www.mozilla.com/firefox"
       }
 
     }
