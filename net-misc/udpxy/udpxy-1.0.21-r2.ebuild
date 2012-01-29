@@ -4,7 +4,7 @@
 
 inherit eutils
 
-REV=$(echo ${PR} | sed 's/r//g')
+REV="2"
 
 DESCRIPTION="Daemon to relay multicast UDP traffic to client's TCP (HTTP) connection"
 HOMEPAGE="http://sourceforge.net/projects/udpxy"
