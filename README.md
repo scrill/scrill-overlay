@@ -231,6 +231,12 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
 
     net-misc {
 
+      udpxy {
+        version     => "1.0.21-r2",
+        description => "Daemon to relay multicast UDP traffic to client's TCP (HTTP) connection",
+        homepage    => " http://sourceforge.net/projects/udpxy"
+      }
+
       rabbitmq-stomp-plugin {
         version     => [ "2.5.1", "2.6.1" ],
         description => "RabbitMQ STOMP plugin.",
