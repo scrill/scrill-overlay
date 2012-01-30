@@ -1,0 +1,10 @@
+# Copyright 1999-2012 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+# mc without ncurses
+app-misc/mc -ncurses slang
+
+# eix and python with sqlite support for cache keeping
+app-portage/eix sqlite
+dev-lang/python sqlite
