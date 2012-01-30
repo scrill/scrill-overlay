@@ -2,8 +2,5 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-# fixed gcc piepatchset
-=sys-devel/gcc-4.5.3-r2 ~x86
-
-# unmask udpxy
-~net-misc/udpxy
+# unmask zsh-completions
+app-shells/zsh-completions **
