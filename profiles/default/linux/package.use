@@ -11,3 +11,6 @@ dev-lang/python sqlite
 
 # layman git support
 app-portage/layman git
+
+# postfix mbox support
+mail-mta/postfix mbox

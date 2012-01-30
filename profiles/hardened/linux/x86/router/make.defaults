@@ -3,3 +3,9 @@
 # $Header: $
 
 CUSTOM_PROFILE="yes"
+
+# global flags
+USE="-X -gpm -xorg"
+
+# logwatch support
+USE="${USE} logwatch"
