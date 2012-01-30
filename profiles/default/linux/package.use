@@ -8,3 +8,6 @@ app-misc/mc -ncurses slang
 # eix and python with sqlite support for cache keeping
 app-portage/eix sqlite
 dev-lang/python sqlite
+
+# layman git support
+app-portage/layman git
