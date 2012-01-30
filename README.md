@@ -48,7 +48,7 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
       }
 
       aws-rds-tools {
-        version     => "1.4.007",
+        version     => "1.6.001",
         description => "The Command Line Toolkit for the Amazon Relational Database Service",
         homepage    => " http://aws.amazon.com/developertools/2928"
       }

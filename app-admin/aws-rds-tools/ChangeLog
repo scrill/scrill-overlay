@@ -1,6 +1,12 @@
 # ChangeLog for app-admin/aws-rds-tools
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*aws-rds-tools-1.6.001 (30 Jan 2012)
+
+  30 Jan 2012; Scrill
+  +aws-rds-tools-1.6.001.ebuild, -aws-rds-tools-1.4.007.ebuild:
+  version bump
 
 *aws-rds-tools-1.4.007 (20 Oct 2011)
 
