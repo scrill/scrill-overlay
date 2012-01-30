@@ -36,7 +36,7 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
       }
 
       aws-as-tools {
-        version     => "1.0.39.0",
+        version     => "1.0.49.1",
         description => "The API tools serve as the client interface to the Auto Scaling web service",
         homepage    => " http://aws.amazon.com/developertools/2535"
       }

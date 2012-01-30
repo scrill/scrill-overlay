@@ -1,3 +1,9 @@
 # ChangeLog for app-admin/aws-as-tools
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*app-admin/aws-as-tools-1.0.49.1 (30 Jan 2012)
+
+  30 Jan 2012; Scrill
+  -aws-as-tools-1.0.39.0.ebuild, +aws-as-tools-1.0.49.1.ebuild:
+  version bump.
