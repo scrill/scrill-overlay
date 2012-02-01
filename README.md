@@ -76,7 +76,7 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
     app-editors {
 
       komodo-edit-bin {
-        version     => "6.1.3-r1",
+        version     => [ "6.1.3-r1", "7.0.0" ],
         description => "Freeware advanced editor for dynamic and Web languages",
         homepage    => " http://www.activestate.com/products/komodo_edit"
       }
