@@ -221,6 +221,12 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
 
     net-im {
 
+      qutim {
+        version     => "0.2.0-r4",
+        description => "New Qt4-based Instant Messenger (ICQ).",
+        homepage    => " http://www.qutim.org"
+      }
+
       nagzilla {
         version     => "2.0",
         description => "Jabber Relay Bot - for monitoring and any other sort of alert needs you have",
