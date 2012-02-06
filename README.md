@@ -251,6 +251,16 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
 
     }
 
+    virtual {
+
+      aws-tools {
+        version     => "0",
+        description => "Virtual for AWS tools",
+        homepage    => " "
+      }
+
+    }
+
     x11-misc {
 
       nevernote {
