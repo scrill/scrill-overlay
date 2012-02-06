@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/net-im/qutim/qutim-0.2.0-r3.ebuild,v 1.7 2011/04/08 18:26:23 hwoarang Exp $
 
