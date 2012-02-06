@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer>
-    <email>scrill@ya.ru</email>
+    <email>sergey.zhuga@gmail.com</email>
   </maintainer>
   <use>
     <flag name="server">Enable nagzilla server</flag>
