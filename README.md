@@ -206,7 +206,7 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
     media-gfx {
 
       yed {
-        version     => "3.8",
+        version     => "3.9",
         description => "Powerful diagram editor that can be used to generate high-quality drawings of diagrams.",
         homepage    => " http://www.yworks.com/en/products_yed_about.html"
       }
