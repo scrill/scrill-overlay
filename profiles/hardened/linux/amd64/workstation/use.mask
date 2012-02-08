@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-video_cards_nvidia
-nvidia
-cuda
-vdpau
+-video_cards_nvidia
+-nvidia
+-cuda
+-vdpau
