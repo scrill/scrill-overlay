@@ -1,0 +1,10 @@
+# ChangeLog for sys-kernel/bbswitch
+# Copyright 1999-2012 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+*sys-kernel/bbswitch-0.4.1-r1 (14 Feb 2012)
+
+  14 Feb 2012; Scrill
+  +bbswitch-0.4.1-r1.ebuild:
+  init. based on bbswitch fro mva overlay. changed module namespace

@@ -251,6 +251,16 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
 
     }
 
+    sys-kernel {
+
+      bbswitch {
+        version     => "0.4.1-r1",
+        description => "Toggle the discrete graphics card",
+        homepage    => " https://github.com/Bumblebee-Project/bbswitch"
+      }
+
+    }
+
     virtual {
 
       aws-tools {
