@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI="2"
+inherit eutils
 
 DESCRIPTION="TPM management software providing an easy to use graphical user interface"
 HOMEPAGE="http://projects.sirrix.com/trac/tpmmanager"
