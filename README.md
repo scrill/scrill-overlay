@@ -73,6 +73,16 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
 
     }
 
+    app-crypt {
+
+      tpmmanager {
+        version     => "0.8.1",
+        description => "TPM management software providing an easy to use graphical user interface",
+        homepage    => " http://projects.sirrix.com/trac/tpmmanager"
+      }
+
+    }
+
     app-editors {
 
       komodo-edit-bin {

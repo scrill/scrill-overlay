@@ -1,0 +1,9 @@
+# ChangeLog for app-crypt/tpmmanager
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*tpmmanager-0.8.1 (19 Feb 2012)
+
+  19 Feb 2012; Scrill
+  +tpmmanager-0.8.1.ebuild:
+  init ebuild based on tpmanager-0.8.ebuild from wolf31o2 overlay
