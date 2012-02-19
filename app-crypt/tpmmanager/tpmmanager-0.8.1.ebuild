@@ -23,6 +23,7 @@ DEPEND=">=app-crypt/trousers-0.3.0
 RDEPEND="${DEPEND}"
 
 src_prepare() {
+	epatch "${FILESDIR}/qurl-fix.patch"
 	qmake || die "qmake"
 }
 
