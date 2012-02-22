@@ -47,10 +47,22 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
         homepage    => " http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372"
       }
 
+      puppet-lint {
+        version     => "0.1.12",
+        description => "Checks your Puppet manifests against the Puppetlabs style guide and alerts you to any discrepancies",
+        homepage    => " https://github.com/rodjek/puppet-lint"
+      }
+
       aws-rds-tools {
         version     => "1.6.001",
         description => "The Command Line Toolkit for the Amazon Relational Database Service",
         homepage    => " http://aws.amazon.com/developertools/2928"
+      }
+
+      puppet-module {
+        version     => "0.3.4",
+        description => "The Puppet Module Tool creates, installs and searches for Puppet modules",
+        homepage    => " https://github.com/puppetlabs/puppet-module-tool"
       }
 
       aws-iam-tools {
@@ -187,22 +199,10 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
         homepage    => " http://www.rightscale.com/"
       }
 
-      puppet-lint {
-        version     => "0.1.11",
-        description => "Checks your Puppet manifests against the Puppetlabs style guide and alerts you to any discrepancies",
-        homepage    => " https://github.com/rodjek/puppet-lint"
-      }
-
       formatador {
         version     => "0.2.1",
         description => "STDOUT text formatting",
         homepage    => " https://github.com/geemus/formatador"
-      }
-
-      puppet-module {
-        version     => "0.3.4",
-        description => "The Puppet Module Tool creates, installs and searches for Puppet modules",
-        homepage    => " https://github.com/puppetlabs/puppet-module-tool"
       }
 
       zabbix {
