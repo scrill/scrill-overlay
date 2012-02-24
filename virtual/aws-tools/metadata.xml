@@ -5,6 +5,8 @@
     <email>sergey.zhuga@gmail.com</email>
   </maintainer>
   <use>
+    <flag name='ami'>Support for AWS EC2 AMI tools</flag>
+    <flag name='api'>Support for AWS EC2 API tools</flag>
     <flag name='as'>Support for Auto Scaling tools</flag>
     <flag name='cfn'>Support for CloudFormation tools</flag>
     <flag name='cw'>Support for CloudWatch tools</flag>

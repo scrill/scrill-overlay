@@ -51,7 +51,7 @@ overlay.keys.sort.each do |category|
       readme.puts "        version     => \"#{package[:version].sort.join('", "')}\"" + ','
     end
     readme.puts "        description => \"#{package[:description]}\"" + ','
-    readme.puts "        homepage    => \" #{package[:homepage]}\""
+    readme.puts "        homepage    => \"#{package[:homepage]}\""
     readme.puts "      }"
   end
   readme.puts "\n    }"
