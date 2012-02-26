@@ -109,6 +109,12 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
         homepage    => "http://cloudsmith.github.com/geppetto"
       }
 
+      sublime-text {
+        version     => "2181",
+        description => "Sublime Text is a sophisticated text editor for code, html and prose",
+        homepage    => "http://www.sublimetext.com"
+      }
+
     }
 
     app-laptop {

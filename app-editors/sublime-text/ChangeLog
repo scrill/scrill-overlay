@@ -1,0 +1,9 @@
+# ChangeLog for app-editors/sublime-text
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*sublime-text-2181 (27 Feb 2012)
+
+  27 Feb 2012; Scrill
+  +sublime-text-2181.ebuild:
+  based on 2165 ebuild from flora overlay. Fixed libpng deps and bumped version.
