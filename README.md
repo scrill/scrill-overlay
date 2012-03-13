@@ -1,7 +1,3 @@
-## Notes
-
-overlay path now is in lowercase. You should re-add it to Layman or fix '.git/config' file. Sorry
-
 ## Usage
 
     layman -f
@@ -66,7 +62,7 @@ overlay path now is in lowercase. You should re-add it to Layman or fix '.git/co
       }
 
       aws-iam-tools {
-        version     => "1.3.0",
+        version     => "1.4.0",
         description => "The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service",
         homepage    => "http://aws.amazon.com/developertools/AWS-Identity-and-Access-Management/4143"
       }

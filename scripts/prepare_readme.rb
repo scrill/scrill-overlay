@@ -37,7 +37,6 @@ end
 
 # Generate README
 readme = File.open(OverlayRoot + '/README.md', 'w')
-readme.puts "## Notes\n\noverlay path now is in lowercase. You should re-add it to Layman or fix '.git/config' file. Sorry\n\n"
 readme.puts "## Usage\n\n    layman -f\n    layman -a scrill\n\n"
 readme.puts "## Content\n"
 overlay.keys.sort.each do |category|
