@@ -133,22 +133,6 @@
 
     }
 
-    app-office {
-
-      libreoffice-bin {
-        version     => "3.4.3-r2",
-        description => "LibreOffice productivity suite.",
-        homepage    => "http://www.libreoffice.org"
-      }
-
-      libreoffice-l10n {
-        version     => "3.4.3-r3",
-        description => "Translations for the Libreoffice suite.",
-        homepage    => "http://www.libreoffice.org"
-      }
-
-    }
-
     app-shells {
 
       zsh-completions {
