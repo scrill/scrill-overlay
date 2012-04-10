@@ -11,7 +11,7 @@ inherit distutils eutils
 
 DESCRIPTION="Bootstrap scripts for AWS CloudFormation"
 HOMEPAGE="http://aws.amazon.com/developertools/4026240853893296"
-SRC_URI="https://s3.amazonaws.com/cloudformation-examples/${P}-6.tar.gz"
+SRC_URI="https://s3.amazonaws.com/cloudformation-examples/${P}.tar.gz"
 
 LICENSE="Amazon"
 SLOT="0"
