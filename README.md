@@ -50,7 +50,7 @@
       }
 
       aws-rds-tools {
-        version     => "1.6.001",
+        version     => "1.8.002",
         description => "The Command Line Toolkit for the Amazon Relational Database Service",
         homepage    => "http://aws.amazon.com/developertools/2928"
       }
