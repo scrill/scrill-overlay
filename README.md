@@ -173,18 +173,6 @@
         homepage    => "http://github.com/verm666/RubyZabbixApi"
       }
 
-      right_http_connection {
-        version     => "1.3.0",
-        description => "RightScale's robust HTTP/S connection module",
-        homepage    => "http://rightscale.rubyforge.org/"
-      }
-
-      right_aws {
-        version     => [ "2.1.0", "3.0.0" ],
-        description => "A robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront",
-        homepage    => "http://www.rightscale.com/"
-      }
-
       formatador {
         version     => "0.2.1",
         description => "STDOUT text formatting",
