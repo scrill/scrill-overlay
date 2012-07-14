@@ -26,7 +26,7 @@
       }
 
       aws-elb-tools {
-        version     => "1.0.15.1",
+        version     => "1.0.17.0",
         description => "The API tools serve as the client interface to the Elastic Load Balancing web service",
         homepage    => "http://aws.amazon.com/developertools/Amazon-EC2/2536"
       }
