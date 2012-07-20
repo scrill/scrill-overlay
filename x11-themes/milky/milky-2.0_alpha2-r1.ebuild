@@ -4,7 +4,7 @@
 
 DESCRIPTION="Icon theme for KDE 4 designed by Banu Onal"
 HOMEPAGE="http://kde-look.org/content/show.php/Milky?content=133124"
-SRC_URI="http://cekirdek.pardus.org.tr/~gokcen/files/milky/${P}.tar.bz2"
+SRC_URI="http://ftp.pardus.org.tr/pub/source/2011/${PN}-2.0-alpha2.tar.bz2"
 
 LICENSE="CCPL-Attribution-3.0"
 SLOT="0"
