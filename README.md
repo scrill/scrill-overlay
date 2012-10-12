@@ -249,6 +249,12 @@
         homepage    => "http://www.rabbitmq.com/plugins.html#rabbitmq-stomp"
       }
 
+      mirall {
+        version     => "1.0.5-r1",
+        description => "Synchronization of your folders with another computers",
+        homepage    => "http://owncloud.org/"
+      }
+
     }
 
     virtual {
