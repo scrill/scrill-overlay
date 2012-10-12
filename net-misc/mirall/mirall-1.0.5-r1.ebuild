@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
-	net-misc/csync
+	net-misc/csync[webdav]
 	x11-libs/qt-core:4
 	x11-libs/qt-gui:4
 	x11-libs/qt-test:4
