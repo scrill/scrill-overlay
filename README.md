@@ -250,7 +250,7 @@
       }
 
       mirall {
-        version     => "1.0.5-r1",
+        version     => "1.1.0-r1",
         description => "Synchronization of your folders with another computers",
         homepage    => "http://owncloud.org/"
       }

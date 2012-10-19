@@ -16,9 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
-	net-misc/csync[webdav]
+	>=net-misc/csync-0.60.0[webdav]
 	x11-libs/qt-core:4
 	x11-libs/qt-gui:4
 	x11-libs/qt-test:4
 "
 DEPEND="${RDEPEND}"
+
+src_prepare() {
+	# Yay for fcked detection.
+	export CSYNC_DIR="${EPREFIX}/usr/include/ocsync/"
+}
