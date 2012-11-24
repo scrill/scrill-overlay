@@ -38,7 +38,7 @@
       }
 
       aws-cfn-tools {
-        version     => "1.0.9",
+        version     => "1.0.11",
         description => "The command line tools serve as the client interface to the AWS CloudFormation web service",
         homepage    => "http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372"
       }
