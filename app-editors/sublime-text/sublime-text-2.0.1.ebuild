@@ -7,15 +7,13 @@ EAPI="4"
 # needed by make_desktop_entry
 inherit eutils
 
-MY_PN="Sublime%20Text%202%20Build"
-MY_P="${MY_PN}%20${PV}"
 S="${WORKDIR}/Sublime Text 2"
 
 DESCRIPTION="Sublime Text is a sophisticated text editor for code, html and prose"
 HOMEPAGE="http://www.sublimetext.com"
 COMMON_URI="http://c758482.r82.cf2.rackcdn.com"
-SRC_URI="amd64? ( ${COMMON_URI}/${MY_P}%20x64.tar.bz2 )
-	x86? ( ${COMMON_URI}/${MY_P}.tar.bz2 )"
+SRC_URI="amd64? ( ${COMMON_URI}/Sublime%20Text%20${PV}%20x64.tar.bz2 )
+	x86? ( ${COMMON_URI}/Sublime%20Text%20${PV}.tar.bz2 )"
 LICENSE="Sublime"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"

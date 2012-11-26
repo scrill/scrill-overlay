@@ -106,7 +106,7 @@
       }
 
       sublime-text {
-        version     => "2181",
+        version     => "2.0.1",
         description => "Sublime Text is a sophisticated text editor for code, html and prose",
         homepage    => "http://www.sublimetext.com"
       }
