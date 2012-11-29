@@ -49,12 +49,6 @@
         homepage    => "http://aws.amazon.com/developertools/2928"
       }
 
-      puppet-module {
-        version     => "0.3.4",
-        description => "The Puppet Module Tool creates, installs and searches for Puppet modules",
-        homepage    => "https://github.com/puppetlabs/puppet-module-tool"
-      }
-
       aws-iam-tools {
         version     => "1.5.0",
         description => "The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service",
