@@ -5,7 +5,7 @@
 EAPI="2"
 
 DESCRIPTION="The API tools serve as the client interface to the Elastic Load Balancing web service"
-HOMEPAGE="http://aws.amazon.com/developertools/Amazon-EC2/2536"
+HOMEPAGE="http://aws.amazon.com/developertools/2536"
 SRC_URI="http://ec2-downloads.s3.amazonaws.com/ElasticLoadBalancing.zip"
 
 S="${WORKDIR}/ElasticLoadBalancing-${PV}"
