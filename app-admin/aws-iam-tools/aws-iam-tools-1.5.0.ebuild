@@ -5,7 +5,7 @@
 EAPI="2"
 
 DESCRIPTION="The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service"
-HOMEPAGE="http://aws.amazon.com/developertools/AWS-Identity-and-Access-Management/4143"
+HOMEPAGE="http://aws.amazon.com/developertools/4143"
 SRC_URI="http://awsiammedia.s3.amazonaws.com/public/tools/cli/latest/IAMCli.zip"
 
 S=${WORKDIR}/IAMCli-${PV}
