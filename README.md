@@ -14,7 +14,7 @@
       }
 
       aws-sns-tools {
-        version     => "1.0.3.0",
+        version     => "1.0.3.3",
         description => "Command Line Interface Tool for Amazon Simple Notification Service",
         homepage    => "http://aws.amazon.com/developertools/3688"
       }
