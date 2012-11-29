@@ -68,7 +68,7 @@
       }
 
       aws-cfn-bootstrap {
-        version     => "1.1",
+        version     => "1.3",
         description => "Bootstrap scripts for AWS CloudFormation",
         homepage    => "http://aws.amazon.com/developertools/4026240853893296"
       }
