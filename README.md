@@ -32,7 +32,7 @@
       }
 
       aws-as-tools {
-        version     => "1.0.61.0",
+        version     => "1.0.61.2",
         description => "The API tools serve as the client interface to the Auto Scaling web service",
         homepage    => "http://aws.amazon.com/developertools/2535"
       }
