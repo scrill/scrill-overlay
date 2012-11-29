@@ -20,7 +20,7 @@
       }
 
       aws-cw-tools {
-        version     => "1.0.12.1",
+        version     => "1.0.13.4",
         description => "The API tools serve as the client interface to the Amazon CloudWatch web service",
         homepage    => "http://aws.amazon.com/developertools/2534"
       }
@@ -40,7 +40,7 @@
       aws-cfn-tools {
         version     => "1.0.11",
         description => "The command line tools serve as the client interface to the AWS CloudFormation web service",
-        homepage    => "http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372"
+        homepage    => "http://aws.amazon.com/developertools/2555753788650372"
       }
 
       puppet-lint {
