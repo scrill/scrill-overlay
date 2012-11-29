@@ -28,7 +28,7 @@
       aws-elb-tools {
         version     => "1.0.17.0",
         description => "The API tools serve as the client interface to the Elastic Load Balancing web service",
-        homepage    => "http://aws.amazon.com/developertools/Amazon-EC2/2536"
+        homepage    => "http://aws.amazon.com/developertools/2536"
       }
 
       aws-as-tools {
@@ -50,7 +50,7 @@
       }
 
       aws-rds-tools {
-        version     => "1.8.002",
+        version     => "1.10.003",
         description => "The Command Line Toolkit for the Amazon Relational Database Service",
         homepage    => "http://aws.amazon.com/developertools/2928"
       }
@@ -64,7 +64,7 @@
       aws-iam-tools {
         version     => "1.5.0",
         description => "The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service",
-        homepage    => "http://aws.amazon.com/developertools/AWS-Identity-and-Access-Management/4143"
+        homepage    => "http://aws.amazon.com/developertools/4143"
       }
 
       aws-cfn-bootstrap {
