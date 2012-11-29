@@ -5,7 +5,7 @@
 EAPI="2"
 
 DESCRIPTION="The command line tools serve as the client interface to the AWS CloudFormation web service"
-HOMEPAGE="http://aws.amazon.com/developertools/AWS-CloudFormation/2555753788650372"
+HOMEPAGE="http://aws.amazon.com/developertools/2555753788650372"
 SRC_URI="https://s3.amazonaws.com/cloudformation-cli/AWSCloudFormation-cli.zip"
 
 S="${WORKDIR}/AWSCloudFormation-${PV}"
