@@ -43,12 +43,6 @@
         homepage    => "http://aws.amazon.com/developertools/2555753788650372"
       }
 
-      puppet-lint {
-        version     => "0.1.12",
-        description => "Checks your Puppet manifests against the Puppetlabs style guide and alerts you to any discrepancies",
-        homepage    => "https://github.com/rodjek/puppet-lint"
-      }
-
       aws-rds-tools {
         version     => "1.10.003",
         description => "The Command Line Toolkit for the Amazon Relational Database Service",
