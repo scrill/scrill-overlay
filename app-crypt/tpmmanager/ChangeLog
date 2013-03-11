@@ -4,6 +4,10 @@
 
 *tpmmanager-0.8.1 (19 Feb 2012)
 
+  11 Mar 2013; Scrill
+  +tpmmanager-0.8.1-r1.ebuild, -tpmmanager-0.8.1.ebuild:
+  fixed deps
+
   19 Feb 2012; Scrill
   +files/qurl-fix.patch:
   patch for qurl call

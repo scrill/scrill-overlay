@@ -18,8 +18,8 @@ RESTRICT="mirror"
 
 DEPEND=">=app-crypt/trousers-0.3.0
 	dev-libs/glib
-	x11-libs/qt-core:4
-	x11-libs/qt-gui:4
+	dev-qt/qtcore:4
+	dev-qt/qtgui:4
 	dev-libs/openssl"
 RDEPEND="${DEPEND}"
 
