@@ -33,7 +33,8 @@ src_unpack() {
 }
 
 src_install() {
-	java-pkg_newjar "${S}/${P}"/${PN}.jar vectorgraphics.jar
+	java-pkg_dojar "${S}/${P}"/${PN}.jar
+	java-pkg_dojar "${S}/${P}"/vectorgraphics.jar
 	java-pkg_dolauncher ${PN}
 	make_desktop_entry ${PN} yEd
 	dodoc "${S}/${P}"/license.html
