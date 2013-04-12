@@ -72,7 +72,7 @@
     app-crypt {
 
       tpmmanager {
-        version     => "0.8.1",
+        version     => "0.8.1-r1",
         description => "TPM management software providing an easy to use graphical user interface",
         homepage    => "http://projects.sirrix.com/trac/tpmmanager"
       }
@@ -184,7 +184,7 @@
     kde-misc {
 
       kaption {
-        version     => "0.1.1",
+        version     => "0.1.1-r1",
         description => "A KDE utility similar to Jing or Skitch not yet as powerful as them",
         homepage    => "http://opendesktop.org/content/show.php?content=139302"
       }
@@ -194,7 +194,7 @@
     media-gfx {
 
       yed {
-        version     => "3.9",
+        version     => "3.10.2",
         description => "Powerful diagram editor that can be used to generate high-quality drawings of diagrams.",
         homepage    => "http://www.yworks.com/en/products_yed_about.html"
       }
