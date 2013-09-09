@@ -14,17 +14,9 @@ SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 LICENSE="HPND"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
 
 RDEPEND=""
 DEPEND="${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
-
-RESTRICT="test"
+	dev-python/setuptools[${PYTHON_USEDEP}]"
 
 DOCS=( README.rst )
-
-python_test() {
-	nosetests || die "Tests fail with ${EPYTHON}"
-}
