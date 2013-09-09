@@ -1,0 +1,9 @@
+# ChangeLog for dev-python/jmespath
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+* dev-python/jmespath (09 Sep 2013)
+
+  09 Sep 2013; Scrill
+  +jmespath-0.0.2.ebuild:
+  init

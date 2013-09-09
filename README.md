@@ -43,6 +43,12 @@
         homepage    => "http://aws.amazon.com/developertools/2555753788650372"
       }
 
+      awscli {
+        version     => "1.0.0",
+        description => "Universal Command Line Environment for AWS",
+        homepage    => "https://github.com/aws/aws-cli https://pypi.python.org/pypi/awscli"
+      }
+
       aws-rds-tools {
         version     => "1.10.003",
         description => "The Command Line Toolkit for the Amazon Relational Database Service",
@@ -141,6 +147,34 @@
 
     }
 
+    dev-python {
+
+      bcdoc {
+        version     => "0.9.0",
+        description => "ReST document generation tools for botocore",
+        homepage    => "https://github.com/boto/bcdoc https://pypi.python.org/pypi/bcdoc"
+      }
+
+      jmespath {
+        version     => "0.0.2",
+        description => "JSON Matching Expressions",
+        homepage    => "https://github.com/boto/jmespath https://pypi.python.org/pypi/jmespath"
+      }
+
+      colorama {
+        version     => "0.2.5",
+        description => "Makes ANSI escape character sequences, for producing colored",
+        homepage    => "http://code.google.com/p/colorama/"
+      }
+
+      botocore {
+        version     => "0.16.0",
+        description => "Low-level, data-driven core of boto 3",
+        homepage    => "https://github.com/boto/botocore https://pypi.python.org/pypi/botocore"
+      }
+
+    }
+
     dev-ruby {
 
       fog {
@@ -204,6 +238,10 @@
         description => "Gentoo theme for gensplash consoles",
         homepage    => "http://www.gentoo.org/"
       }
+
+    }
+
+    metadata {
 
     }
 
