@@ -22,3 +22,7 @@ DEPEND="${RDEPEND}
 RESTRICT="test"
 
 DOCS=( README.rst )
+
+src_prepare() {
+	rm -fr tests/
+}
