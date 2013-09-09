@@ -19,4 +19,6 @@ RDEPEND=""
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 
+RESTRICT="test"
+
 DOCS=( README.rst )
