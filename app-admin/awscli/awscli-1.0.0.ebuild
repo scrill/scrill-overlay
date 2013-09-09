@@ -5,7 +5,7 @@
 EAPI=5
 PYTHON_COMPAT=( python{2_6,2_7,3_2,3_3} pypy2_0 )
 
-inherit distutils-r1
+inherit distutils-r1 eutils
 
 DESCRIPTION="Universal Command Line Environment for AWS"
 HOMEPAGE="https://github.com/aws/aws-cli https://pypi.python.org/pypi/awscli"
@@ -32,6 +32,10 @@ DEPEND="${RDEPEND}
 RESTRICT="test"
 
 DOCS=( README.rst )
+
+src_prepare() {
+	epatch "${FILESDIR}/${P}-fix-bin-file.patch"
+}
 
 python_test() {
 	nosetests || die "Tests fail with ${EPYTHON}"
