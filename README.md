@@ -215,6 +215,16 @@
 
     }
 
+    kde-base {
+
+      kdebase-runtime-meta {
+        version     => "4.10.5",
+        description => "Merge this to pull in all kdebase-runtime-derived packages",
+        homepage    => ""
+      }
+
+    }
+
     kde-misc {
 
       kaption {

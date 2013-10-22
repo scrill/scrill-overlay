@@ -1,0 +1,7 @@
+# ChangeLog for kde-base/kdebase-runtime-meta
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  22 Oct 2013; Scrill
+  kdebase-runtime-meta-4.10.5.ebuild:
+  drkonqi moved under semantic-desktop flag
