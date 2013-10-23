@@ -223,6 +223,12 @@
         homepage    => ""
       }
 
+      plasma-workspace {
+        version     => "4.11.2-r1",
+        description => "Plasma: KDE desktop framework",
+        homepage    => ""
+      }
+
     }
 
     kde-misc {
