@@ -218,7 +218,7 @@
     kde-base {
 
       kdebase-runtime-meta {
-        version     => "4.10.5",
+        version     => "4.11.2-r1",
         description => "Merge this to pull in all kdebase-runtime-derived packages",
         homepage    => ""
       }
