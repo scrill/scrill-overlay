@@ -109,6 +109,12 @@
 
     app-laptop {
 
+      tp_smapi {
+        version     => "9999",
+        description => "IBM ThinkPad SMAPI BIOS driver",
+        homepage    => "https://github.com/evgeni/tp_smapi/ http://tpctl.sourceforge.net/"
+      }
+
       lenovo-sl-laptop {
         version     => "9999",
         description => "Linux kernel support for the Lenovo SL series ThinkPads",
