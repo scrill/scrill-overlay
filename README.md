@@ -334,7 +334,7 @@
     x11-themes {
 
       milky {
-        version     => [ "2.0-r1", "2.0_alpha2-r1" ],
+        version     => [ "2.0-r2", "2.0_alpha2-r2" ],
         description => "Icon theme for KDE 4 designed by Banu Onal",
         homepage    => "http://kde-look.org/content/show.php/Milky?content=133124"
       }
