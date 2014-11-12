@@ -275,6 +275,12 @@
         homepage    => "http://www.qutim.org"
       }
 
+      skype {
+        version     => "4.3.0.37-r1",
+        description => "P2P Internet Telephony (VoiceIP) client",
+        homepage    => "http://www.skype.com/"
+      }
+
       nagzilla {
         version     => "2.0",
         description => "Jabber Relay Bot - for monitoring and any other sort of alert needs you have",
