@@ -240,7 +240,7 @@
     kde-misc {
 
       kaption {
-        version     => "0.1.1-r2",
+        version     => "0.1.1-r3",
         description => "A KDE utility similar to Jing or Skitch not yet as powerful as them",
         homepage    => "http://opendesktop.org/content/show.php?content=139302"
       }
