@@ -143,16 +143,6 @@
 
     }
 
-    dev-perl {
-
-      Log-LogLite {
-        version     => "0.82",
-        description => "The Log::LogLite class helps us create simple logs for our application",
-        homepage    => ""
-      }
-
-    }
-
     dev-python {
 
       bcdoc {
@@ -279,12 +269,6 @@
         version     => "4.3.0.37-r1",
         description => "P2P Internet Telephony (VoiceIP) client",
         homepage    => "http://www.skype.com/"
-      }
-
-      nagzilla {
-        version     => "2.0",
-        description => "Jabber Relay Bot - for monitoring and any other sort of alert needs you have",
-        homepage    => "http://code.google.com/p/nagzilla/"
       }
 
     }
