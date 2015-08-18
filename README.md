@@ -75,6 +75,16 @@
 
     }
 
+    app-backup {
+
+      insync {
+        version     => "1.2.7-r1",
+        description => "Advanced cross-platform Google Drive client",
+        homepage    => "https://www.insynchq.com/"
+      }
+
+    }
+
     app-crypt {
 
       tpmmanager {
