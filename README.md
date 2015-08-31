@@ -281,6 +281,12 @@
         homepage    => "http://www.skype.com/"
       }
 
+      scudcloud {
+        version     => "9999",
+        description => "A Linux client for Slack",
+        homepage    => "https://github.com/${MY_AUTHOR}/${PN}"
+      }
+
     }
 
     net-misc {
