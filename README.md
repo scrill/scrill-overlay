@@ -189,6 +189,12 @@
         homepage    => "http://fog.io/"
       }
 
+      rvm {
+        version     => "1.11.3.8",
+        description => "RVM Ruby Gem Library",
+        homepage    => "https://rvm.io"
+      }
+
       excon {
         version     => "0.7.6",
         description => "EXtended http(s) CONnections",
