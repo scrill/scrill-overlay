@@ -31,7 +31,7 @@ RDEPEND="${DEPEND}"
 
 MY_PV=$(get_version_component_range 1-2)
 if [[ ${PV} == "9999" ]] ; then
-	MY_S="${WORKDIR}/${P}/${PN}-1.0"
+	MY_S="${WORKDIR}/${P}/${PN}-1.1"
 else
 	MY_S="${WORKDIR}/${P}/${PN}-${MY_PV}"
 fi
