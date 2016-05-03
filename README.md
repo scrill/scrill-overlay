@@ -288,7 +288,7 @@
       }
 
       viber {
-        version     => "9999",
+        version     => "6.0.1.5",
         description => "Free calls, text and picture sharing with anyone, anywhere!",
         homepage    => "http://www.viber.com"
       }
