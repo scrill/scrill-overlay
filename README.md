@@ -287,6 +287,12 @@
         homepage    => "http://www.skype.com/"
       }
 
+      viber {
+        version     => "9999",
+        description => "Free calls, text and picture sharing with anyone, anywhere!",
+        homepage    => "http://www.viber.com"
+      }
+
       scudcloud {
         version     => "9999",
         description => "A Linux client for Slack",
