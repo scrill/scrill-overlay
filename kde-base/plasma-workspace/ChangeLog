@@ -1,7 +1,0 @@
-# ChangeLog for kde-base/plasma-workspace
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-  23 Oct 2013; Scrill
-  plasma-workspace-4.11.2-r1.ebuild:
-  drkonqi moved under semantic-desktop flag

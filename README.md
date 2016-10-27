@@ -7,46 +7,10 @@
 
     app-admin {
 
-      reprepro {
-        version     => "4.3.0-r1",
-        description => "Debian repository creator and maintainer application",
-        homepage    => "http://packages.debian.org/reprepro"
-      }
-
-      aws-sns-tools {
-        version     => "1.0.3.3",
-        description => "Command Line Interface Tool for Amazon Simple Notification Service",
-        homepage    => "http://aws.amazon.com/developertools/3688"
-      }
-
-      aws-cw-tools {
-        version     => "1.0.13.4",
-        description => "The API tools serve as the client interface to the Amazon CloudWatch web service",
-        homepage    => "http://aws.amazon.com/developertools/2534"
-      }
-
-      aws-elb-tools {
-        version     => "1.0.17.0",
-        description => "The API tools serve as the client interface to the Elastic Load Balancing web service",
-        homepage    => "http://aws.amazon.com/developertools/2536"
-      }
-
-      aws-as-tools {
-        version     => "1.0.61.2",
-        description => "The API tools serve as the client interface to the Auto Scaling web service",
-        homepage    => "http://aws.amazon.com/developertools/2535"
-      }
-
       aws-cfn-tools {
         version     => "1.0.11",
         description => "The command line tools serve as the client interface to the AWS CloudFormation web service",
         homepage    => "http://aws.amazon.com/developertools/2555753788650372"
-      }
-
-      awscli {
-        version     => "1.0.0",
-        description => "Universal Command Line Environment for AWS",
-        homepage    => "https://github.com/aws/aws-cli https://pypi.python.org/pypi/awscli"
       }
 
       aws-rds-tools {
@@ -55,10 +19,16 @@
         homepage    => "http://aws.amazon.com/developertools/2928"
       }
 
-      aws-iam-tools {
-        version     => "1.5.0",
-        description => "The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service",
-        homepage    => "http://aws.amazon.com/developertools/4143"
+      aws-as-tools {
+        version     => "1.0.61.2",
+        description => "The API tools serve as the client interface to the Auto Scaling web service",
+        homepage    => "http://aws.amazon.com/developertools/2535"
+      }
+
+      amazon-ec2-init {
+        version     => "20110331",
+        description => "Init script to setup Amazon EC2 instance parameters",
+        homepage    => "http://www.gentoo.org/"
       }
 
       aws-cfn-bootstrap {
@@ -67,10 +37,40 @@
         homepage    => "http://aws.amazon.com/developertools/4026240853893296"
       }
 
-      amazon-ec2-init {
-        version     => "20110331",
-        description => "Init script to setup Amazon EC2 instance parameters",
-        homepage    => "http://www.gentoo.org/"
+      aws-iam-tools {
+        version     => "1.5.0",
+        description => "The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service",
+        homepage    => "http://aws.amazon.com/developertools/4143"
+      }
+
+      awscli {
+        version     => "1.0.0",
+        description => "Universal Command Line Environment for AWS",
+        homepage    => "https://github.com/aws/aws-cli https://pypi.python.org/pypi/awscli"
+      }
+
+      aws-sns-tools {
+        version     => "1.0.3.3",
+        description => "Command Line Interface Tool for Amazon Simple Notification Service",
+        homepage    => "http://aws.amazon.com/developertools/3688"
+      }
+
+      aws-elb-tools {
+        version     => "1.0.17.0",
+        description => "The API tools serve as the client interface to the Elastic Load Balancing web service",
+        homepage    => "http://aws.amazon.com/developertools/2536"
+      }
+
+      aws-cw-tools {
+        version     => "1.0.13.4",
+        description => "The API tools serve as the client interface to the Amazon CloudWatch web service",
+        homepage    => "http://aws.amazon.com/developertools/2534"
+      }
+
+      reprepro {
+        version     => "4.3.0-r1",
+        description => "Debian repository creator and maintainer application",
+        homepage    => "http://packages.debian.org/reprepro"
       }
 
     }
@@ -119,16 +119,16 @@
 
     app-laptop {
 
-      tp_smapi {
-        version     => "9999",
-        description => "IBM ThinkPad SMAPI BIOS driver",
-        homepage    => "https://github.com/evgeni/tp_smapi/ http://tpctl.sourceforge.net/"
-      }
-
       lenovo-sl-laptop {
         version     => "9999",
         description => "Linux kernel support for the Lenovo SL series ThinkPads",
         homepage    => "http://github.com/tadzik/lenovo-sl-laptop"
+      }
+
+      tp_smapi {
+        version     => "9999",
+        description => "IBM ThinkPad SMAPI BIOS driver",
+        homepage    => "https://github.com/evgeni/tp_smapi/ http://tpctl.sourceforge.net/"
       }
 
     }
@@ -155,6 +155,12 @@
 
     dev-python {
 
+      colorama {
+        version     => "0.2.5",
+        description => "Makes ANSI escape character sequences, for producing colored",
+        homepage    => "http://code.google.com/p/colorama/"
+      }
+
       bcdoc {
         version     => "0.9.0",
         description => "ReST document generation tools for botocore",
@@ -167,12 +173,6 @@
         homepage    => "https://github.com/boto/jmespath https://pypi.python.org/pypi/jmespath"
       }
 
-      colorama {
-        version     => "0.2.5",
-        description => "Makes ANSI escape character sequences, for producing colored",
-        homepage    => "http://code.google.com/p/colorama/"
-      }
-
       botocore {
         version     => "0.16.0",
         description => "Low-level, data-driven core of boto 3",
@@ -183,28 +183,28 @@
 
     dev-ruby {
 
-      fog {
-        version     => "1.1.1",
-        description => "The Ruby cloud services library",
-        homepage    => "http://fog.io/"
-      }
-
-      rvm {
-        version     => "1.11.3.8",
-        description => "RVM Ruby Gem Library",
-        homepage    => "https://rvm.io"
-      }
-
       excon {
         version     => "0.7.6",
         description => "EXtended http(s) CONnections",
         homepage    => "https://github.com/geemus/excon"
       }
 
-      zabbixapi {
-        version     => "0.1.4-r1",
-        description => "Ruby module for work with Zabbix API",
-        homepage    => "http://github.com/verm666/RubyZabbixApi"
+      fog {
+        version     => "1.1.1",
+        description => "The Ruby cloud services library",
+        homepage    => "http://fog.io/"
+      }
+
+      aws-ses {
+        version     => "0.4.3",
+        description => "Client library for Amazon's Simple Email Service's REST API",
+        homepage    => "https://github.com/drewblas/aws-ses"
+      }
+
+      rvm {
+        version     => "1.11.3.8",
+        description => "RVM Ruby Gem Library",
+        homepage    => "https://rvm.io"
       }
 
       formatador {
@@ -219,26 +219,10 @@
         homepage    => "https://github.com/mhat/zabbix-rb"
       }
 
-      aws-ses {
-        version     => "0.4.3",
-        description => "Client library for Amazon's Simple Email Service's REST API",
-        homepage    => "https://github.com/drewblas/aws-ses"
-      }
-
-    }
-
-    kde-base {
-
-      kdebase-runtime-meta {
-        version     => "4.11.2-r1",
-        description => "Merge this to pull in all kdebase-runtime-derived packages",
-        homepage    => ""
-      }
-
-      plasma-workspace {
-        version     => "4.11.2-r1",
-        description => "Plasma: KDE desktop framework",
-        homepage    => ""
+      zabbixapi {
+        version     => "0.1.4-r1",
+        description => "Ruby module for work with Zabbix API",
+        homepage    => "http://github.com/verm666/RubyZabbixApi"
       }
 
     }
@@ -255,16 +239,16 @@
 
     media-gfx {
 
-      yed {
-        version     => "3.11.1",
-        description => "Powerful diagram editor that can be used to generate high-quality drawings of diagrams.",
-        homepage    => "http://www.yworks.com/en/products_yed_about.html"
-      }
-
       splash-themes-livecd {
         version     => "2010.0",
         description => "Gentoo theme for gensplash consoles",
         homepage    => "http://www.gentoo.org/"
+      }
+
+      yed {
+        version     => "3.11.1",
+        description => "Powerful diagram editor that can be used to generate high-quality drawings of diagrams.",
+        homepage    => "http://www.yworks.com/en/products_yed_about.html"
       }
 
     }
@@ -281,10 +265,10 @@
         homepage    => "http://www.qutim.org"
       }
 
-      skype {
-        version     => "4.3.0.37-r1",
-        description => "P2P Internet Telephony (VoiceIP) client",
-        homepage    => "http://www.skype.com/"
+      scudcloud {
+        version     => "9999",
+        description => "A Linux client for Slack",
+        homepage    => "https://github.com/${MY_AUTHOR}/${PN}"
       }
 
       viber {
@@ -293,20 +277,20 @@
         homepage    => "http://www.viber.com"
       }
 
-      scudcloud {
-        version     => "9999",
-        description => "A Linux client for Slack",
-        homepage    => "https://github.com/${MY_AUTHOR}/${PN}"
+      skype {
+        version     => "4.3.0.37-r1",
+        description => "P2P Internet Telephony (VoiceIP) client",
+        homepage    => "http://www.skype.com/"
       }
 
     }
 
     net-misc {
 
-      udpxy {
-        version     => "1.0.21-r2",
-        description => "Daemon to relay multicast UDP traffic to client's TCP (HTTP) connection",
-        homepage    => "http://sourceforge.net/projects/udpxy"
+      mirall {
+        version     => "1.1.0-r1",
+        description => "Synchronization of your folders with another computers",
+        homepage    => "http://owncloud.org/"
       }
 
       rabbitmq-stomp-plugin {
@@ -315,10 +299,10 @@
         homepage    => "http://www.rabbitmq.com/plugins.html#rabbitmq-stomp"
       }
 
-      mirall {
-        version     => "1.1.0-r1",
-        description => "Synchronization of your folders with another computers",
-        homepage    => "http://owncloud.org/"
+      udpxy {
+        version     => "1.0.21-r2",
+        description => "Daemon to relay multicast UDP traffic to client's TCP (HTTP) connection",
+        homepage    => "http://sourceforge.net/projects/udpxy"
       }
 
     }
