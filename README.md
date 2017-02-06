@@ -272,7 +272,7 @@
       }
 
       viber {
-        version     => "6.0.1.5",
+        version     => "6.5.5.1481",
         description => "Free calls, text and picture sharing with anyone, anywhere!",
         homepage    => "http://www.viber.com"
       }

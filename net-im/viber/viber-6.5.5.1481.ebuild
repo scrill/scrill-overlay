@@ -18,11 +18,9 @@ S="${WORKDIR}"
 src_unpack() {
 	default_src_unpack
 	unpack ./data.tar.xz
-	epatch "${FILESDIR}/00-desktop.patch"
 }
 
 src_install(){
 	doins -r opt usr
 	fperms 755 /opt/viber/Viber
 }
-
