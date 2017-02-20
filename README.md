@@ -31,12 +31,6 @@
         homepage    => "http://www.gentoo.org/"
       }
 
-      aws-cfn-bootstrap {
-        version     => "1.3",
-        description => "Bootstrap scripts for AWS CloudFormation",
-        homepage    => "http://aws.amazon.com/developertools/4026240853893296"
-      }
-
       aws-iam-tools {
         version     => "1.5.0",
         description => "The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service",
@@ -129,16 +123,6 @@
         version     => "9999",
         description => "IBM ThinkPad SMAPI BIOS driver",
         homepage    => "https://github.com/evgeni/tp_smapi/ http://tpctl.sourceforge.net/"
-      }
-
-    }
-
-    app-misc {
-
-      tnote {
-        version     => "0.2.1",
-        description => "A small note taking program for the terminal",
-        homepage    => "http://sourceforge.net/projects/tnote/"
       }
 
     }
