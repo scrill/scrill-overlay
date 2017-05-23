@@ -243,12 +243,6 @@
 
     net-im {
 
-      qutim {
-        version     => "0.2.0-r4",
-        description => "New Qt4-based Instant Messenger (ICQ).",
-        homepage    => "http://www.qutim.org"
-      }
-
       scudcloud {
         version     => "9999",
         description => "A Linux client for Slack",
@@ -270,12 +264,6 @@
     }
 
     net-misc {
-
-      mirall {
-        version     => "1.1.0-r1",
-        description => "Synchronization of your folders with another computers",
-        homepage    => "http://owncloud.org/"
-      }
 
       rabbitmq-stomp-plugin {
         version     => [ "2.5.1", "2.6.1" ],

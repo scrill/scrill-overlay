@@ -1,9 +1,0 @@
-# ChangeLog for net-im/qutim
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-*qutim-0.2.0-r4 (02 Feb 2012)
-
-  02 Feb 2012; Scrill
-  +qutim-0.2.0-r4.ebuild:
-  fix TARGET_LINK_LIBRARIES in 0.2.0-r3
