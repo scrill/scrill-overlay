@@ -28,5 +28,11 @@ src_install() {
     newicon -s ${res} opt/bluejeans/icons/hicolor/${res}x${res}/apps/bluejeans.png ${PN}.png
   done
 
-  domenu opt/bluejeans/bluejeans.desktop
+  fperms +x /opt/${PN}/${PN}
+  fperms +x /opt/${PN}/${PN}-bin
+
+  dosym /opt/${PN}/${PN} /opt/bin/${PN}
+  dosym /opt/${PN}/${PN}-bin /opt/bin/${PN}-bin
+
+  domenu opt/${PN}/${PN}.desktop
 }
