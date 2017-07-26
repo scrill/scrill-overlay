@@ -19,3 +19,9 @@ S="${WORKDIR}"
 src_unpack() {
   rpm_src_unpack ${A}
 }
+
+src_install() {
+  insinto /opt/bluejeans
+  doins -r opt/bluejeans
+  domenu opt/bluejeans/bluejeans.desktop
+}
