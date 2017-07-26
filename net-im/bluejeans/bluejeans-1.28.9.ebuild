@@ -15,3 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 S="${WORKDIR}"
+
+src_install() {
+  cp -R "${S}/"* "${D}/" || die "Install failed!"
+}
