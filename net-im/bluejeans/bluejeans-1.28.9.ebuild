@@ -16,6 +16,6 @@ IUSE=""
 
 S="${WORKDIR}"
 
-src_install() {
-  cp -R "${S}/"* "${D}/" || die "Install failed!"
+src_unpack() {
+  rpm_src_unpack ${A}
 }
