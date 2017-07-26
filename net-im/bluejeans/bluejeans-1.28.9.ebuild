@@ -29,6 +29,6 @@ src_install() {
     newicon -s ${res} opt/bluejeans/icons/hicolor/${res}x${res}/apps/bluejeans.png ${PN}.png
   done
 
-  dobin opt/bluejeans/bluejeans
+  doexe opt/bluejeans/bluejeans
   domenu opt/bluejeans/bluejeans.desktop
 }
