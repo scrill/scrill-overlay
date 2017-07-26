@@ -249,6 +249,12 @@
         homepage    => "https://github.com/${MY_AUTHOR}/${PN}"
       }
 
+      bluejeans {
+        version     => "1.28.9",
+        description => "Online meetings, video conferencing, and screen sharing for teams of any size",
+        homepage    => "https://www.bluejeans.com"
+      }
+
       viber {
         version     => "6.5.5.1481",
         description => "Free calls, text and picture sharing with anyone, anywhere!",
