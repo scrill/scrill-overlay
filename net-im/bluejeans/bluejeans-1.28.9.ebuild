@@ -25,7 +25,7 @@ src_install() {
 
   local res
   for res in 16 24 32 256; do
-    newicon -s ${res} opt/bluejeans/icons/hicolor/${res}x${res}/apps/bluejeans.png ${PN}.png
+    newicon -s ${res} opt/${PN}/icons/hicolor/${res}x${res}/apps/${PN}.png ${PN}.png
   done
 
   fperms +x /opt/${PN}/${PN}
@@ -33,6 +33,7 @@ src_install() {
 
   dosym /opt/${PN}/${PN} /opt/bin/${PN}
   dosym /opt/${PN}/${PN}-bin /opt/bin/${PN}-bin
+  dosym /usr/lib/libudev.so /opt/${PN}/libudev.so.0
 
   domenu opt/${PN}/${PN}.desktop
 }
