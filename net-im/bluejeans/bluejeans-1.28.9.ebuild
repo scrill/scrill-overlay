@@ -22,6 +22,13 @@ src_unpack() {
 
 src_install() {
   insinto /opt/bluejeans
-  doins -r opt/bluejeans
+  doins -r opt
+
+  local res
+  for res in 16 24 32 256; do
+    newicon -s ${res} opt/bluejeans/icons/hicolor/${res}x${res}/apps/bluejeans.png ${PN}.png
+  done
+
+  dobin opt/bluejeans/bluejeans-bin
   domenu opt/bluejeans/bluejeans.desktop
 }
