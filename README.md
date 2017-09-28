@@ -91,12 +91,6 @@
 
     app-editors {
 
-      komodo-edit-bin {
-        version     => [ "6.1.3-r1", "7.0.0" ],
-        description => "Freeware advanced editor for dynamic and Web languages",
-        homepage    => "http://www.activestate.com/products/komodo_edit"
-      }
-
       geppetto {
         version     => "2.1.0",
         description => "An integrated toolset for developing puppet modules and manifests",
@@ -214,7 +208,7 @@
     kde-misc {
 
       kaption {
-        version     => "0.1.1-r3",
+        version     => "0.1.1-r4",
         description => "A KDE utility similar to Jing or Skitch not yet as powerful as them",
         homepage    => "http://opendesktop.org/content/show.php?content=139302"
       }
