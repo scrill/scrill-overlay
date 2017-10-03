@@ -109,12 +109,6 @@
 
     net-im {
 
-      scudcloud {
-        version     => "9999",
-        description => "A Linux client for Slack",
-        homepage    => "https://github.com/${MY_AUTHOR}/${PN}"
-      }
-
       bluejeans {
         version     => "1.28.9",
         description => "Online meetings, video conferencing, and screen sharing for teams of any size",
