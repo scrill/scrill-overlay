@@ -20,7 +20,7 @@ Find.find(root) do |path|
 
   content[category] = {} unless content[category]
   content[category][name] = {} unless content[category][name]
-  content[category][name]['description'] = ebuild['DESCRIPTION'],
+  content[category][name]['description'] = ebuild['DESCRIPTION']
   content[category][name]['homepage'] = ebuild['HOMEPAGE']
   content[category][name]['version'] = [] unless content[category][name]['version']
   content[category][name]['version'] << matches['version']
