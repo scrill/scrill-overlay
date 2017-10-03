@@ -37,12 +37,6 @@
         homepage    => "http://aws.amazon.com/developertools/4143"
       }
 
-      awscli {
-        version     => "1.0.0",
-        description => "Universal Command Line Environment for AWS",
-        homepage    => "https://github.com/aws/aws-cli https://pypi.python.org/pypi/awscli"
-      }
-
       aws-sns-tools {
         version     => "1.0.3.3",
         description => "Command Line Interface Tool for Amazon Simple Notification Service",
