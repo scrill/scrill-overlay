@@ -77,34 +77,6 @@
 
     }
 
-    dev-python {
-
-      colorama {
-        version     => "0.2.5",
-        description => "Makes ANSI escape character sequences, for producing colored",
-        homepage    => "http://code.google.com/p/colorama/"
-      }
-
-      bcdoc {
-        version     => "0.9.0",
-        description => "ReST document generation tools for botocore",
-        homepage    => "https://github.com/boto/bcdoc https://pypi.python.org/pypi/bcdoc"
-      }
-
-      jmespath {
-        version     => "0.0.2",
-        description => "JSON Matching Expressions",
-        homepage    => "https://github.com/boto/jmespath https://pypi.python.org/pypi/jmespath"
-      }
-
-      botocore {
-        version     => "0.16.0",
-        description => "Low-level, data-driven core of boto 3",
-        homepage    => "https://github.com/boto/botocore https://pypi.python.org/pypi/botocore"
-      }
-
-    }
-
     dev-ruby {
 
       excon {
