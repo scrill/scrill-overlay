@@ -121,12 +121,6 @@
         homepage    => "http://www.viber.com"
       }
 
-      skype {
-        version     => "4.3.0.37-r1",
-        description => "P2P Internet Telephony (VoiceIP) client",
-        homepage    => "http://www.skype.com/"
-      }
-
     }
 
     net-misc {
