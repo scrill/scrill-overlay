@@ -103,10 +103,6 @@
 
     }
 
-    metadata {
-
-    }
-
     net-im {
 
       bluejeans {
