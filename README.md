@@ -77,52 +77,6 @@
 
     }
 
-    dev-ruby {
-
-      excon {
-        version     => "0.7.6",
-        description => "EXtended http(s) CONnections",
-        homepage    => "https://github.com/geemus/excon"
-      }
-
-      fog {
-        version     => "1.1.1",
-        description => "The Ruby cloud services library",
-        homepage    => "http://fog.io/"
-      }
-
-      aws-ses {
-        version     => "0.4.3",
-        description => "Client library for Amazon's Simple Email Service's REST API",
-        homepage    => "https://github.com/drewblas/aws-ses"
-      }
-
-      rvm {
-        version     => "1.11.3.8",
-        description => "RVM Ruby Gem Library",
-        homepage    => "https://rvm.io"
-      }
-
-      formatador {
-        version     => "0.2.1",
-        description => "STDOUT text formatting",
-        homepage    => "https://github.com/geemus/formatador"
-      }
-
-      zabbix {
-        version     => "0.4.0",
-        description => "Send data to Zabbix from Ruby",
-        homepage    => "https://github.com/mhat/zabbix-rb"
-      }
-
-      zabbixapi {
-        version     => "0.1.4-r1",
-        description => "Ruby module for work with Zabbix API",
-        homepage    => "http://github.com/verm666/RubyZabbixApi"
-      }
-
-    }
-
     kde-misc {
 
       kaption {

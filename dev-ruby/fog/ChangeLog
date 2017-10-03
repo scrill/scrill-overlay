@@ -1,9 +1,0 @@
-# ChangeLog for dev-ruby/fog
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-*dev-ruby/fog (23 Nov 2011)
-
-  23 Nov 2011; Scrill
-  +fog-1.1.1.ebuild:
-  initial ebuild

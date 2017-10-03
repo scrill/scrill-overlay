@@ -1,9 +1,0 @@
-# ChangeLog for dev-ruby/zabbixapi
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-*dev-ruby/zabbixapi (27 Oct 2011)
-
-  27 Oct 2011; Scrill
-  +zabbixapi-0.1.4-r1.ebuild, +files/zabbixapi-0.1.4-templates.patch:
-  initial ebuild and patch for adding templates when create new host
