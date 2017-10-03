@@ -163,10 +163,4 @@
         homepage    => "http://kde-look.org/content/show.php/Milky?content=133124"
       }
 
-      qutim-kolobok {
-        version     => "0.0.2",
-        description => "Kolobok smile pack for net-im/qutim",
-        homepage    => "http://www.qutim.org"
-      }
-
     }
