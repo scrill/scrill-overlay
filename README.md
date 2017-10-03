@@ -139,16 +139,6 @@
 
     }
 
-    virtual {
-
-      aws-tools {
-        version     => "0",
-        description => "Virtual for AWS tools",
-        homepage    => ""
-      }
-
-    }
-
     x11-misc {
 
       nevernote {
