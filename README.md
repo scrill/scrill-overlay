@@ -7,52 +7,10 @@
 
     app-admin {
 
-      aws-cfn-tools {
-        version     => "1.0.11",
-        description => "The command line tools serve as the client interface to the AWS CloudFormation web service",
-        homepage    => "http://aws.amazon.com/developertools/2555753788650372"
-      }
-
-      aws-rds-tools {
-        version     => "1.10.003",
-        description => "The Command Line Toolkit for the Amazon Relational Database Service",
-        homepage    => "http://aws.amazon.com/developertools/2928"
-      }
-
-      aws-as-tools {
-        version     => "1.0.61.2",
-        description => "The API tools serve as the client interface to the Auto Scaling web service",
-        homepage    => "http://aws.amazon.com/developertools/2535"
-      }
-
       amazon-ec2-init {
         version     => "20110331",
         description => "Init script to setup Amazon EC2 instance parameters",
         homepage    => "http://www.gentoo.org/"
-      }
-
-      aws-iam-tools {
-        version     => "1.5.0",
-        description => "The Command Line Interface (CLI) for the AWS Identity and Access Management (IAM) Service",
-        homepage    => "http://aws.amazon.com/developertools/4143"
-      }
-
-      aws-sns-tools {
-        version     => "1.0.3.3",
-        description => "Command Line Interface Tool for Amazon Simple Notification Service",
-        homepage    => "http://aws.amazon.com/developertools/3688"
-      }
-
-      aws-elb-tools {
-        version     => "1.0.17.0",
-        description => "The API tools serve as the client interface to the Elastic Load Balancing web service",
-        homepage    => "http://aws.amazon.com/developertools/2536"
-      }
-
-      aws-cw-tools {
-        version     => "1.0.13.4",
-        description => "The API tools serve as the client interface to the Amazon CloudWatch web service",
-        homepage    => "http://aws.amazon.com/developertools/2534"
       }
 
       reprepro {

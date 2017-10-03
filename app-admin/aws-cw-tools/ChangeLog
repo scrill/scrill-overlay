@@ -1,9 +1,0 @@
-# ChangeLog for app-admin/aws-cw-tools
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-*aws-cw-tools-1.0.13.4 (29 Nov 2012)
-
-  29 Nov 2012; Scrill
-  +aws-cw-tools-1.0.13.4.ebuild, -aws-cw-tools-1.0.12.1.ebuild:
-  version bump
