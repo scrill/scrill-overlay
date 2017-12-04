@@ -118,7 +118,7 @@
           "description": "Free calls, text and picture sharing with anyone, anywhere!",
           "homepage": "http://www.viber.com",
           "version": [
-            "6.5.5.1481"
+            "7.0.0.1035"
           ]
         }
       },
