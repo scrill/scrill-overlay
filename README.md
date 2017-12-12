@@ -111,7 +111,8 @@
           "description": "Online meetings, video conferencing, and screen sharing for teams of any size",
           "homepage": "https://www.bluejeans.com",
           "version": [
-            "1.28.9"
+            "1.28.9",
+            "1.31.27"
           ]
         },
         "viber": {
