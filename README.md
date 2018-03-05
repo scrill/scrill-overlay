@@ -112,7 +112,8 @@
           "homepage": "https://www.bluejeans.com",
           "version": [
             "1.28.9",
-            "1.31.27"
+            "1.31.27",
+            "1.33.15"
           ]
         },
         "viber": {
