@@ -7,13 +7,6 @@
 
     {
       "app-admin": {
-        "amazon-ec2-init": {
-          "description": "Init script to setup Amazon EC2 instance parameters",
-          "homepage": "http://www.gentoo.org/",
-          "version": [
-            "20110331"
-          ]
-        },
         "reprepro": {
           "description": "Debian repository creator and maintainer application",
           "homepage": "http://packages.debian.org/reprepro",
@@ -53,22 +46,6 @@
           "homepage": "http://cloudsmith.github.com/geppetto",
           "version": [
             "2.1.0"
-          ]
-        }
-      },
-      "app-laptop": {
-        "lenovo-sl-laptop": {
-          "description": "Linux kernel support for the Lenovo SL series ThinkPads",
-          "homepage": "http://github.com/tadzik/lenovo-sl-laptop",
-          "version": [
-            "9999"
-          ]
-        },
-        "tp_smapi": {
-          "description": "IBM ThinkPad SMAPI BIOS driver",
-          "homepage": "https://github.com/evgeni/tp_smapi/ http://tpctl.sourceforge.net/",
-          "version": [
-            "9999"
           ]
         }
       },
@@ -125,14 +102,6 @@
         }
       },
       "net-misc": {
-        "rabbitmq-stomp-plugin": {
-          "description": "RabbitMQ STOMP plugin.",
-          "homepage": "http://www.rabbitmq.com/plugins.html#rabbitmq-stomp",
-          "version": [
-            "2.5.1",
-            "2.6.1"
-          ]
-        },
         "udpxy": {
           "description": "Daemon to relay multicast UDP traffic to client's TCP (HTTP) connection",
           "homepage": "http://sourceforge.net/projects/udpxy",
