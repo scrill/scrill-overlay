@@ -4,8 +4,6 @@
 
 EAPI="5"
 
-inherit kde4-base
-
 DESCRIPTION="A KDE utility similar to Jing or Skitch not yet as powerful as them"
 HOMEPAGE="http://opendesktop.org/content/show.php?content=139302"
 SRC_URI="https://dl.opendesktop.org/api/files/download/id/1466627852/139302-${P}.tar.bz2"
