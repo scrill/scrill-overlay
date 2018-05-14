@@ -2,7 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="5"
+EAPI="6"
+
+inherit kde5
 
 DESCRIPTION="A KDE utility similar to Jing or Skitch not yet as powerful as them"
 HOMEPAGE="http://opendesktop.org/content/show.php?content=139302"
