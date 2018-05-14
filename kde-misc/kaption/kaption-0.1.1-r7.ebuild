@@ -8,7 +8,7 @@ inherit kde5
 
 DESCRIPTION="A KDE utility similar to Jing or Skitch not yet as powerful as them"
 HOMEPAGE="http://opendesktop.org/content/show.php?content=139302"
-SRC_URI="https://dl.opendesktop.org/api/files/download/id/1466627852/139302-${P}.tar.bz2"
+SRC_URI="https://s3.amazonaws.com/scrill.overlay/kde-misc/kaption/139302-${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
