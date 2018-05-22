@@ -122,7 +122,7 @@
           "description": "Cross-platform pomodoro timer written in C++ using Qt4",
           "homepage": "http://sourceforge.net/p/qomodoro/",
           "version": [
-            "0.1-r1"
+            "0.1-r2"
           ]
         }
       },
