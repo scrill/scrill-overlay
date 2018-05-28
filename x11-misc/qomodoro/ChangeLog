@@ -1,9 +1,0 @@
-# ChangeLog for app-misc/qomodoro
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-+qomodoro-0.1 (01 Nov 2011)
-
-  01 Nov 2011; Scrill
-  qomodoro-0.1-r1.ebuild:
-  migrate to 'qt4-r2', remove 'dodoc'

@@ -58,15 +58,6 @@
           ]
         }
       },
-      "kde-misc": {
-        "kaption": {
-          "description": "A KDE utility similar to Jing or Skitch not yet as powerful as them",
-          "homepage": "http://opendesktop.org/content/show.php?content=139302",
-          "version": [
-            "0.1.1-r7"
-          ]
-        }
-      },
       "media-gfx": {
         "splash-themes-livecd": {
           "description": "Gentoo theme for gensplash consoles",
@@ -116,13 +107,6 @@
           "homepage": "http://nevernote.sourceforge.net/index.htm",
           "version": [
             "0.99"
-          ]
-        },
-        "qomodoro": {
-          "description": "Cross-platform pomodoro timer written in C++ using Qt4",
-          "homepage": "http://sourceforge.net/p/qomodoro/",
-          "version": [
-            "0.1-r2"
           ]
         }
       },
