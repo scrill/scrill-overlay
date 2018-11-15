@@ -77,6 +77,13 @@
         }
       },
       "net-misc": {
+        "rclone-browser": {
+          "description": "Simple cross platform GUI for Rclone",
+          "homepage": "https://github.com/mmozeiko/RcloneBrowser",
+          "version": [
+            "1.2"
+          ]
+        },
         "udpxy": {
           "description": "Daemon to relay multicast UDP traffic to client's TCP (HTTP) connection",
           "homepage": "http://sourceforge.net/projects/udpxy",
