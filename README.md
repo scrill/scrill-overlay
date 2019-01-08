@@ -68,6 +68,13 @@
             "1.33.15"
           ]
         },
+        "slack-bin": {
+          "description": "Team collaboration tool",
+          "homepage": "http://www.slack.com/",
+          "version": [
+            "3.3.3-r1"
+          ]
+        },
         "viber": {
           "description": "Free calls, text and picture sharing with anyone, anywhere!",
           "homepage": "http://www.viber.com",
