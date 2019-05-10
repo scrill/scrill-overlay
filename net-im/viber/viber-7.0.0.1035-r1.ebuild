@@ -35,5 +35,4 @@ src_install(){
 	fowners root:audio /opt/${PN}/${PN} /opt/${PN}/${PN}-bin
 	fperms 755 /opt/${PN}/${PN} /opt/${PN}/${PN}-bin
 	sed -i -e '/^Exec/s/Viber/viber/' ${ED}/usr/share/applications/viber.desktop
-	fperms 755 /opt/${PN}/QtWebEngineProcess
 }
