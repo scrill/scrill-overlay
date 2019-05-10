@@ -79,7 +79,7 @@
           "description": "Free calls, text and picture sharing with anyone, anywhere!",
           "homepage": "http://www.viber.com",
           "version": [
-            "7.0.0.1035-r1"
+            "7.0.0.1035-r2"
           ]
         }
       },
