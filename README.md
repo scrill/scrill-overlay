@@ -33,6 +33,15 @@
           ]
         }
       },
+      "app-misc": {
+        "blackbox-tools": {
+          "description": "Blackbox flight data recorder tools",
+          "homepage": "https://github.com/betaflight/blackbox-tools",
+          "version": [
+            "0.4.3"
+          ]
+        }
+      },
       "app-shells": {
         "zsh-completions": {
           "description": "Additional completion definitions for Zsh",
