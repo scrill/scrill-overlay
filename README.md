@@ -109,11 +109,25 @@
         }
       },
       "x11-misc": {
-        "nevernote": {
-          "description": "An open source Evernote clone",
-          "homepage": "http://nevernote.sourceforge.net/index.htm",
+        "betaflight-configurator": {
+          "description": "Crossplatform configuration tool for the Betaflight flight control system",
+          "homepage": "https://github.com/betaflight/betaflight-configurator",
           "version": [
-            "0.99"
+            "10.6.0_rc2"
+          ]
+        },
+        "blheli-configurator": {
+          "description": "Application for BLHeli firmware flashing and configuration",
+          "homepage": "https://github.com/blheli-configurator/blheli-configurator",
+          "version": [
+            "1.1.0"
+          ]
+        },
+        "jesc-configurator": {
+          "description": "Application for JESC firmware flashing and configuration",
+          "homepage": "https://github.com/jflight-public/jesc-configurator",
+          "version": [
+            "1.2.4"
           ]
         }
       },
