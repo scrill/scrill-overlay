@@ -137,6 +137,13 @@
           "version": [
             "1.2.4"
           ]
+        },
+        "opentx-companion": {
+          "description": "Models and settings editor for the OpenTX open source firmware",
+          "homepage": "https://www.open-tx.org",
+          "version": [
+            "2.3.1"
+          ]
         }
       },
       "x11-themes": {
