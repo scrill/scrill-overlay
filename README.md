@@ -120,6 +120,7 @@
           "description": "Crossplatform configuration tool for the Betaflight flight control system",
           "homepage": "https://github.com/betaflight/betaflight-configurator",
           "version": [
+            "10.6.0",
             "10.6.0_rc2"
           ]
         },
