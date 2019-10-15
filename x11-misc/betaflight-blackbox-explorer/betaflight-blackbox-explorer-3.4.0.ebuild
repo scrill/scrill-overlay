@@ -31,10 +31,5 @@ src_install() {
 	dodir ${DST_APPDIR}
 	cp -a "${SRC_APPDIR}"/* "${D}${DST_APPDIR}"/ || die
 
-	doicon "${SRC_APPDIR}"/icon/bf_icon_128.png
-	local res
-	for res in 16 32 256 512; do
-		doicon -s $res "${SRC_APPDIR}"/icon/bf_icon_128.png
-	done
 	domenu "${SRC_APPDIR}"/betaflight-blackbox-explorer.desktop
 }
