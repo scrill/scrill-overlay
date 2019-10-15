@@ -109,6 +109,13 @@
         }
       },
       "x11-misc": {
+        "betaflight-blackbox-explorer": {
+          "description": "This tool allows you to open logs recorded by Betaflight's Blackbox feature",
+          "homepage": "https://github.com/betaflight/blackbox-log-viewer",
+          "version": [
+            "3.4.0"
+          ]
+        },
         "betaflight-configurator": {
           "description": "Crossplatform configuration tool for the Betaflight flight control system",
           "homepage": "https://github.com/betaflight/betaflight-configurator",
