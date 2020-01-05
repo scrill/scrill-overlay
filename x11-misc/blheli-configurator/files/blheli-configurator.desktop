@@ -2,7 +2,7 @@
 Name=BLHeli Configurator
 Comment=Application for BLHeli firmware flashing and configuration
 Exec=/opt/blheli-configurator/blheli-configurator
-Icon=
+Icon=blheli-configurator
 Terminal=false
 Type=Application
 Categories=Utility
