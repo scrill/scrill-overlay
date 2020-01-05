@@ -120,6 +120,7 @@
           "description": "Crossplatform configuration tool for the Betaflight flight control system",
           "homepage": "https://github.com/betaflight/betaflight-configurator",
           "version": [
+            "10.6.0-r1",
             "10.6.0",
             "10.6.0_rc2"
           ]
@@ -128,7 +129,6 @@
           "description": "Application for BLHeli firmware flashing and configuration",
           "homepage": "https://github.com/blheli-configurator/blheli-configurator",
           "version": [
-            "1.1.0",
             "1.2.0"
           ]
         },
@@ -136,7 +136,6 @@
           "description": "Application for JESC firmware flashing and configuration",
           "homepage": "https://github.com/jflight-public/jesc-configurator",
           "version": [
-            "1.2.4",
             "1.2.6"
           ]
         },
