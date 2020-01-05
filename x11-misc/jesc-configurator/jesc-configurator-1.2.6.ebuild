@@ -31,7 +31,6 @@ src_install() {
 	dodir ${DST_APPDIR}
 	cp -a "${SRC_APPDIR}"/* "${D}${DST_APPDIR}"/ || die
 
-	doicon "${FILESDIR}"/jesc-configurator.png
 	local res
 	for res in 16 32 64 128 256 512; do
 		doicon -s $res "${FILESDIR}"/jesc-configurator.png
