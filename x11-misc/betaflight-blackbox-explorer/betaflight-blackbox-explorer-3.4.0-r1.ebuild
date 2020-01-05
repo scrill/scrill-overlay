@@ -7,7 +7,7 @@ inherit desktop eutils
 
 DESCRIPTION="This tool allows you to open logs recorded by Betaflight's Blackbox feature"
 HOMEPAGE="https://github.com/betaflight/blackbox-log-viewer"
-SRC_URI="https://github.com/betaflight/blackbox-log-viewer/releases/download/3.4.0/betaflight-blackbox-explorer_3.4.0_linux64.zip"
+SRC_URI="https://github.com/betaflight/blackbox-log-viewer/releases/download/${PV}/betaflight-blackbox-explorer_${PV}_linux64.zip"
 LICENSE="GPL-3"
 RESTRICT="mirror test"
 
@@ -30,6 +30,5 @@ src_unpack() {
 src_install() {
 	dodir ${DST_APPDIR}
 	cp -a "${SRC_APPDIR}"/* "${D}${DST_APPDIR}"/ || die
-
 	domenu "${SRC_APPDIR}"/betaflight-blackbox-explorer.desktop
 }
