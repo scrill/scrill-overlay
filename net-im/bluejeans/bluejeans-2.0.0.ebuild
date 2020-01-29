@@ -23,16 +23,5 @@ src_unpack() {
 src_install() {
   cp -R "${S}/"* "${D}/" || die "Install failed!"
 
-  local res
-  for res in 16 24 32 256; do
-    newicon -s ${res} opt/${PN}/icons/hicolor/${res}x${res}/apps/${PN}.png ${PN}.png
-  done
-
-  fperms +x /opt/${PN}/${PN}
-  fperms +x /opt/${PN}/${PN}-bin
-
-  dosym /opt/${PN}/${PN} /opt/bin/${PN}
-  dosym /opt/${PN}/${PN}-bin /opt/bin/${PN}-bin
-
-  domenu opt/${PN}/${PN}.desktop
+  fperms +x /opt/BlueJeans/${PN}-v2
 }
