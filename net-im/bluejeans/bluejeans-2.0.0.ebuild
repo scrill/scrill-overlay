@@ -7,7 +7,7 @@ inherit rpm
 
 DESCRIPTION="Online meetings, video conferencing, and screen sharing for teams of any size"
 HOMEPAGE="https://www.bluejeans.com"
-SRC_URI="https://swdl.bluejeans.com/desktop/linux/1.28/1.28.9/bluejeans-1.28.9.x86_64.rpm"
+SRC_URI="https://swdl.bluejeans.com/desktop-app/linux/${PV}/BlueJeans.rpm"
 
 LICENSE="BlueJeans"
 SLOT="0"
@@ -33,7 +33,6 @@ src_install() {
 
   dosym /opt/${PN}/${PN} /opt/bin/${PN}
   dosym /opt/${PN}/${PN}-bin /opt/bin/${PN}-bin
-  dosym /usr/lib/libudev.so /opt/${PN}/libudev.so.0
 
   domenu opt/${PN}/${PN}.desktop
 }
