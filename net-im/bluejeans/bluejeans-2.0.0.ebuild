@@ -24,4 +24,5 @@ src_install() {
   cp -R "${S}/"* "${D}/" || die "Install failed!"
 
   fperms +x /opt/BlueJeans/${PN}-v2
+  domenu usr/share/applications/bluejeans-v2.desktop
 }
