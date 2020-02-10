@@ -42,15 +42,6 @@
           ]
         }
       },
-      "app-shells": {
-        "zsh-completions": {
-          "description": "Additional completion definitions for Zsh",
-          "homepage": "https://github.com/zsh-users/zsh-completions",
-          "version": [
-            "9999"
-          ]
-        }
-      },
       "media-gfx": {
         "splash-themes-livecd": {
           "description": "Gentoo theme for gensplash consoles",
