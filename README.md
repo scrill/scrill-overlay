@@ -142,7 +142,8 @@
           "homepage": "https://www.open-tx.org",
           "version": [
             "2.3.1",
-            "2.3.5"
+            "2.3.5",
+            "2.3.7"
           ]
         }
       },
