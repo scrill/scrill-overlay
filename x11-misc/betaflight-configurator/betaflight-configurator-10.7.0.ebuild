@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -7,7 +7,7 @@ inherit desktop eutils
 
 DESCRIPTION="Crossplatform configuration tool for the Betaflight flight control system"
 HOMEPAGE="https://github.com/betaflight/betaflight-configurator"
-SRC_URI="https://github.com/betaflight/betaflight-configurator/releases/download/10.7.0-RC1/betaflight-configurator_10.7.0-RC1_linux64.zip"
+SRC_URI="https://github.com/betaflight/betaflight-configurator/releases/download/${PV}/betaflight-configurator_${PV}_linux64.zip"
 LICENSE="GPL-3"
 RESTRICT="mirror test"
 
