@@ -6,15 +6,6 @@
 ## Content
 
     {
-      "app-admin": {
-        "reprepro": {
-          "description": "Debian repository creator and maintainer application",
-          "homepage": "http://packages.debian.org/reprepro",
-          "version": [
-            "4.3.0-r1"
-          ]
-        }
-      },
       "app-backup": {
         "insync": {
           "description": "Advanced cross-platform Google Drive client",
@@ -121,7 +112,7 @@
           "homepage": "https://github.com/betaflight/betaflight-configurator",
           "version": [
             "10.6.0-r1",
-            "10.7.0_rc1"
+            "10.7.0"
           ]
         },
         "blheli-configurator": {
