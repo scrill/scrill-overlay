@@ -15,37 +15,12 @@
           ]
         }
       },
-      "app-crypt": {
-        "tpmmanager": {
-          "description": "TPM management software providing an easy to use graphical user interface",
-          "homepage": "http://projects.sirrix.com/trac/tpmmanager",
-          "version": [
-            "0.8.1-r1"
-          ]
-        }
-      },
       "app-misc": {
         "blackbox-tools": {
           "description": "Blackbox flight data recorder tools",
           "homepage": "https://github.com/betaflight/blackbox-tools",
           "version": [
             "0.4.3"
-          ]
-        }
-      },
-      "media-gfx": {
-        "splash-themes-livecd": {
-          "description": "Gentoo theme for gensplash consoles",
-          "homepage": "http://www.gentoo.org/",
-          "version": [
-            "2010.0"
-          ]
-        },
-        "yed": {
-          "description": "Powerful diagram editor that can be used to generate high-quality drawings of diagrams.",
-          "homepage": "http://www.yworks.com/en/products_yed_about.html",
-          "version": [
-            "3.11.1"
           ]
         }
       },
@@ -88,13 +63,6 @@
           "homepage": "https://github.com/mmozeiko/RcloneBrowser",
           "version": [
             "1.2"
-          ]
-        },
-        "udpxy": {
-          "description": "Daemon to relay multicast UDP traffic to client's TCP (HTTP) connection",
-          "homepage": "http://sourceforge.net/projects/udpxy",
-          "version": [
-            "1.0.21-r2"
           ]
         }
       },
