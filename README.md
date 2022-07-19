@@ -34,35 +34,11 @@
         }
       },
       "net-im": {
-        "bluejeans": {
-          "description": "Online meetings, video conferencing, and screen sharing for teams of any size",
-          "homepage": "https://www.bluejeans.com",
-          "version": [
-            "1.33.15",
-            "2.0.0"
-          ]
-        },
         "slack-bin": {
           "description": "Team collaboration tool",
           "homepage": "http://www.slack.com/",
           "version": [
             "3.3.3-r1"
-          ]
-        },
-        "viber": {
-          "description": "Free calls, text and picture sharing with anyone, anywhere!",
-          "homepage": "http://www.viber.com",
-          "version": [
-            "7.0.0.1035-r2"
-          ]
-        }
-      },
-      "net-misc": {
-        "rclone-browser": {
-          "description": "Simple cross platform GUI for Rclone",
-          "homepage": "https://github.com/mmozeiko/RcloneBrowser",
-          "version": [
-            "1.2"
           ]
         }
       },
