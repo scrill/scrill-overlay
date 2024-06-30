@@ -15,15 +15,6 @@
           ]
         }
       },
-      "media-sound": {
-        "google-play-music-desktop-player-bin": {
-          "description": "A beautiful cross platform Desktop Player for Google Play Music",
-          "homepage": "http://www.googleplaymusicdesktopplayer.com",
-          "version": [
-            "4.7.1"
-          ]
-        }
-      },
       "net-im": {
         "slack-bin": {
           "description": "Team collaboration tool",
