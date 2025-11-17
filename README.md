@@ -15,15 +15,6 @@
           ]
         }
       },
-      "net-im": {
-        "slack-bin": {
-          "description": "Team collaboration tool",
-          "homepage": "http://www.slack.com/",
-          "version": [
-            "3.3.3-r1"
-          ]
-        }
-      },
       "x11-themes": {
         "milky": {
           "description": "Icon theme for KDE 4 designed by Banu Onal",
